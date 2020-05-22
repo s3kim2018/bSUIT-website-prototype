@@ -1,4 +1,43 @@
 *{
     margin: 0; 
-    overflow-y: scroll;
 }
+.menu .mbutton {
+    opacity: 0.83;
+}
+.menu .mbutton:hover {
+    cursor: pointer;
+    opacity: 1; 
+}
+
+
+
+.selected {
+    color: white !important; 
+}
+.sample-questions #lvl1but {
+    color: rgba(255, 255, 255, 0.5);; 
+}
+.sample-questions #lvl2but {
+    color: rgba(255, 255, 255, 0.5);
+}
+.sample-questions #lvl3but {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.sample-questions #uiline {
+    left: 598px; 
+}
+.sample-questions #lvl1but:hover {
+    cursor: pointer;
+    color: white;
+} 
+.sample-questions #lvl2but:hover {
+    cursor: pointer;
+    color: white;
+} 
+.sample-questions #lvl3but:hover {
+    cursor: pointer;
+    color: white;
+} 
+
+

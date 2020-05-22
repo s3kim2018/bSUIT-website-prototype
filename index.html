@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <head>
     <title>HOME</title>
-    <link rel="stylesheet" href="general.css">
 </head>
 <body>
     <!-- This section is the main menu part of the website.-->
@@ -10,10 +9,10 @@
         <img src = "img/logo.png" style = "float: left; width: 143px; height: 143px; margin-left: 160px; margin-top: 18px">
         <!-- This is the Menu--> 
         <div style = "display: flex; position: absolute; padding-top: 85px; padding-left: 800px">
-            <p style = "color: white; position: relative; font-family: 'Open Sans', sans-serif; font-weight:500; white-space: nowrap;"> HOME </p> 
-            <p style = "color: white; position: relative; font-family: 'Open Sans', sans-serif; font-weight:500; margin-left: 40px; white-space: nowrap;"> What We Do </p>
-            <p style = "color: white; position: relative; font-family: 'Open Sans', sans-serif; font-weight:500; margin-left: 40px; white-space: nowrap;"> Our Service </p> 
-            <p style = "color: white; position: relative; font-family: 'Open Sans', sans-serif; font-weight:500; margin-left: 40px; white-space: nowrap;"> Sample Problems </p> 
+            <p class = "mbutton" style = "color: white; position: relative; font-family: 'Open Sans', sans-serif; font-weight:500; white-space: nowrap;"> HOME </p> 
+            <p class = "mbutton" style = "color: white; position: relative; font-family: 'Open Sans', sans-serif; font-weight:500; margin-left: 40px; white-space: nowrap;"> What We Do </p>
+            <p class = "mbutton" style = "color: white; position: relative; font-family: 'Open Sans', sans-serif; font-weight:500; margin-left: 40px; white-space: nowrap;"> Our Service </p> 
+            <p class = "mbutton" style = "color: white; position: relative; font-family: 'Open Sans', sans-serif; font-weight:500; margin-left: 40px; white-space: nowrap;"> Sample Problems </p> 
         </div>
 
 
@@ -139,14 +138,17 @@
         <p style = "position: absolute; width: 324px; height: 49px; left: 558px; top: 3612px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 36px; line-height: 49px; color: #FFFFFF;">Sample Questions</p>
         <!-- The Problem -->
         <div style = "position: absolute; width: 752px; height: 750px; left: 344px; top: 3735px; order: 3; background: white"></div>
-        <img src = "prob/lvl1.PNG" style = "position: absolute; width: 752px; height: 720px; left: 344px; top: 3751px;">
+        <img id = "prob" src = "prob/lvl1.PNG" style = "position: absolute; width: 752px; height: 720px; left: 344px; top: 3751px;">
         <!-- Lvl1 button -->
-        <p id = "lvl1but" style = "position: absolute; width: 49px; height: 19px; left: 593px; top: 4510px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 14px; line-height: 19px; color: #FFFFFF;"> Level 1 </p>
+        <p id = "lvl1but" class = "selected" style = "position: absolute; width: 65px; height: 19px; left: 593px; top: 4510px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 14px; line-height: 19px;"> Level 1 </p>
         <!-- Lvl2 button -->
-        <p id = "lvl2but" style = "position: absolute; width: 49px; height: 19px; left: 696px; top: 4510px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 14px; line-height: 19px; color: rgba(255, 255, 255, 0.5);"> Level 2 </p>
+        <p id = "lvl2but" class = "samplebutton" style = "position: absolute; left: 696px; top: 4510px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 14px; line-height: 20px;"> Level 2 </p>
         <!-- Lvl3 button -->
-        <p id = "lvl3but" style = "position: absolute; width: 49px; height: 19px; left: 799px; top: 4510px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 14px; line-height: 19px; color: rgba(255, 255, 255, 0.5);"> Level 3 </p>
+        <p id = "lvl3but" class = "samplebutton" style = "position: absolute; width: 65px; height: 19px; left: 799px; top: 4510px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 14px; line-height: 19px;"> Level 3 </p>
         <!-- UI Line -->
-        <div style = "position: absolute; width: 34px; height: 0px; left: 598px; top: 4532px; border: 1px solid #FFFFFF;"></div>
+        <div id = "uiline" style = "position: absolute; width: 34px; height: 0px; top: 4532px; border: 1px solid #FFFFFF;"></div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src = "scripts/home.js"></script>
+    <link rel="stylesheet" href="general.css">
 </body>
