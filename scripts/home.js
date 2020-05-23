@@ -62,3 +62,41 @@ $(document).ready(function() { //wait for shizzles to load
     });
 
 });
+
+/* Menu Buttons */
+$(document).ready(function() {
+    $('.menu #banner').hide();
+    $('.menu #uno').on('click', function() {
+        $('html, body').animate({
+            scrollTop: $("#anchor0").offset().top
+        }, 1000);
+    });
+    $('.menu #dos').on('click', function() {
+        $('html, body').animate({
+            scrollTop: $("#anchor1").offset().top
+        }, 1000);
+    });
+    $('.menu #tres').on('click', function() {
+        $('html, body').animate({
+            scrollTop: $("#anchor2").offset().top
+        }, 1000);
+    });
+    $('.menu #quatro').on('click', function() {
+        $('html, body').animate({
+            scrollTop: $("#anchor3").offset().top
+        }, 1000);
+    });
+
+    /* Swipe button listeners */
+    $('.menu #rightb').on('click', function() {
+       $('.menu #page1').hide('slide', {direction: 'left', queue: false}); 
+       $('.menu #banner').show('slide', {direction: 'right', queue: false});
+    })
+
+    $('.menu #leftb').on('click', function() {
+        $('.menu #banner').hide('slide', {direction: 'right', queue: false}); 
+        $('.menu #page1').show('slide', {direction: 'left', queue: false}); 
+     })
+});
+
+

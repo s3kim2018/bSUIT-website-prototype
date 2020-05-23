@@ -4,10 +4,24 @@
 .menu .mbutton {
     opacity: 0.83;
 }
+
 .menu .mbutton:hover {
     cursor: pointer;
+    opacity:1; 
+}
+
+.menu #regbutton:hover {
+    cursor: pointer; 
+}
+
+.menu .swipebutton{
+    opacity: 0.8;
+}
+.menu .swipebutton:hover{
+    cursor: pointer; 
     opacity: 1; 
 }
+
 
 
 
