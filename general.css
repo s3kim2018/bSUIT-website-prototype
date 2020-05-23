@@ -21,7 +21,10 @@
     cursor: pointer; 
     opacity: 1; 
 }
-
+.menu #banner {
+    width: 1200px;
+    height: 630px;
+}
 
 
 
