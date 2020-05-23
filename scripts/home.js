@@ -88,14 +88,30 @@ $(document).ready(function() {
     });
 
     /* Swipe button listeners */
+    let state = 0; 
     $('.menu #rightb').on('click', function() {
-       $('.menu #page1').hide('slide', {direction: 'left', queue: false}); 
-       $('.menu #banner').show('slide', {direction: 'right', queue: false});
+        if (state == 0){
+            $('.menu #page1').hide('slide', {direction: 'left', queue: false}); 
+            $('.menu #banner').show('slide', {direction: 'right', queue: false});
+            state = 1; 
+        } else if (state == 1) {
+            $('.menu #banner').hide('slide', {direction: 'left', queue: false}); 
+            $('.menu #page1').show('slide', {direction: 'right', queue: false});
+            state = 0; 
+        }
     })
 
     $('.menu #leftb').on('click', function() {
-        $('.menu #banner').hide('slide', {direction: 'right', queue: false}); 
-        $('.menu #page1').show('slide', {direction: 'left', queue: false}); 
+        if (state == 1) {
+            $('.menu #banner').hide('slide', {direction: 'right', queue: false}); 
+            $('.menu #page1').show('slide', {direction: 'left', queue: false}); 
+            state = 0; 
+        } else if (state == 0) {
+            $('.menu #page1').hide('slide', {direction: 'right', queue: false}); 
+            $('.menu #banner').show('slide', {direction: 'left', queue: false}); 
+            state = 1; 
+        }
+
      })
 });
 
