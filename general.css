@@ -17,19 +17,42 @@
     margin-top: 18px
 }
 .menu .swiper-container .words {
-    display: flex; position: absolute; padding-top: 85px; padding-left: 800px; z-index: 2;
+    display: flex;
+    position: absolute;
+    padding-top: 85px;
+    padding-left: 800px;
+    z-index: 2;
 }
 .menu .swiper-container .words #uno {
-    color: white; position: relative; font-family: 'Open Sans', sans-serif; font-weight:500; white-space: nowrap;
+    color: white;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:500;
+    white-space: nowrap;
 }
 .menu .swiper-container .words #dos {
-    color: white; position: relative; font-family: 'Open Sans', sans-serif; font-weight:500; margin-left: 40px; white-space: nowrap;
+    color: white;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:500;
+    margin-left: 40px;
+    white-space: nowrap;
 }
 .menu .swiper-container .words #tres {
-    color: white; position: relative; font-family: 'Open Sans', sans-serif; font-weight:500; margin-left: 40px; white-space: nowrap;
+    color: white;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:500;
+    margin-left: 40px;
+    white-space: nowrap;
 }
 .menu .swiper-container .words #quatro {
-    color: white; position: relative; font-family: 'Open Sans', sans-serif; font-weight:500; margin-left: 40px; white-space: nowrap;
+    color: white;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:500;
+    margin-left: 40px;
+    white-space: nowrap;
 }
 
 .menu .swiper-container #menuicon {
@@ -55,7 +78,13 @@
     display: none; 
 }
 .menu .swiper-container .swiper-wrapper .swiper-slide #mac {
-    position: absolute; width: 500px; height: 300px; left: 167px; top: 30px; padding-left: 630px; padding-top: 90px;
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    left: 167px;
+    top: 30px;
+    padding-left: 630px;
+    padding-top: 90px;
 }
 .menu .swiper-container .swiper-wrapper .swiper-slide .main {
     position: absolute; width: 556px; height: 173px; left: 166px; top: 170px; font-family: 'Open Sans', sans-serif; font-weight: bold; font-size: 38px; line-height: 52px; color: white;
