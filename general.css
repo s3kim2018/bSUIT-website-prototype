@@ -293,6 +293,8 @@
         top: 37px; 
     }
     #rapper .menu .swiper-container .words {
+        position: fixed;
+        z-index: 1000;
         margin-top: 180px; 
         width: 100%;
         height: 160px;
@@ -311,7 +313,7 @@
         color: white; 
         font-family: 'Open Sans', sans-serif;
         font-weight:600;
-        z-index: 2;
+        z-index: 1000;
     }
     #rapper .menu .swiper-container .words #dos {
         background-color: rgba(30, 34, 68, 0.95);
@@ -326,7 +328,7 @@
         color: white; 
         font-family: 'Open Sans', sans-serif;
         font-weight:600;
-        z-index: 2;
+        z-index: 1000;
     }
     #rapper .menu .swiper-container .words #tres {
         background-color: rgba(30, 34, 68, 0.7);
