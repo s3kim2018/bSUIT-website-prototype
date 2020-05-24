@@ -1,9 +1,7 @@
 *{
     margin: 0; 
 }
-body {
-    overflow-x: hidden;
-}
+
 
 /* MENU  */
 .menu .swiper-container {
@@ -83,6 +81,7 @@ body {
 .menu .swiper-container .swiper-wrapper .swiper-slide #mac {
     position: absolute;
     min-width: 400px;
+    z-index: 0;
     max-width: 600px;
     height: 300px;
     left: 820px;
@@ -377,7 +376,7 @@ body {
     }
     .menu .swiper-container .swiper-wrapper .swiper-slide #mac {
         position: absolute;
-        width: 50px;
+        width: 200px;
         height: 230px;
         top: 0px;
         left: 50%;
