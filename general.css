@@ -5,8 +5,6 @@
 /* MENU  */
 .menu .swiper-container {
     width: 100%; 
-    background-size: 100%;
-    position: absolute;
     height: 848px;
 }
 .menu .swiper-container #logo {
