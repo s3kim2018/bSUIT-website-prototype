@@ -29,9 +29,9 @@ $(document).ready(function() { //wait for shizzles to load
             $('.sample-questions #uiline').css({
                 left: '598px',
             });
-            $('.sample-questions #prob').attr('src', 'prob/lvl1.png');
+            $('.sample-questions #thepimg').attr('src', 'prob/lvl1.png');
             current = 1; 
-            $('.sample-questions #prob').css({
+            $('.sample-questions #thepimg').css({
                 height: '720px',
                 width: '700px'
             });
@@ -48,8 +48,8 @@ $(document).ready(function() { //wait for shizzles to load
             $('.sample-questions #uiline').css({
                 left: '702px',
             });
-            $('.sample-questions #prob').attr('src', 'prob/lvl2.png');
-            $('.sample-questions #prob').css({
+            $('.sample-questions #thepimg').attr('src', 'prob/lvl2.png');
+            $('.sample-questions #thepimg').css({
                 height: '450px',
                 width: '700px'
             });
@@ -68,8 +68,8 @@ $(document).ready(function() { //wait for shizzles to load
             $('.sample-questions #uiline').css({
                 left: '804px',
             });
-            $('.sample-questions #prob').attr('src', 'prob/lvl3.png');
-            $('.sample-questions #prob').css({
+            $('.sample-questions #thepimg').attr('src', 'prob/lvl3.png');
+            $('.sample-questions #thepimg').css({
                 height: '470px',
                 width: '680px'
             });

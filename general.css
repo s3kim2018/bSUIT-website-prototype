@@ -235,10 +235,45 @@
     position: absolute; width: 480px; height: 44px; left: 212px; top: 3247px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 16px; line-height: 22px; color: #333333;
 }
 /* Samples Section */
-
+.sample-questions #back {
+    position: absolute; order: 0; width: 100%; height: 1118px; left: 0px; top: 3536px; background: rgba(30, 47, 79, 0.8)
+}
+.sample-questions #title {
+    position: absolute; width: 324px; height: 49px; left: 558px; top: 3612px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 36px; line-height: 49px; color: #FFFFFF;
+}
+.sample-questions #problem {
+    position: absolute; width: 752px; height: 750px; left: 344px; top: 3735px; order: 3; background: white;
+}
+.sample-questions #thepimg {
+    position: absolute; width: 752px; height: 720px; left: 344px; top: 3751px;
+}
+.sample-questions #lvl1but {
+    position: absolute; width: 65px; height: 19px; left: 593px; top: 4510px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 14px; line-height: 19px;
+}
+.sample-questions #lvl2but {
+    position: absolute; left: 696px; top: 4510px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 14px; line-height: 20px;
+}
+.sample-questions #lvl3but {
+    position: absolute; width: 65px; height: 19px; left: 799px; top: 4510px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 14px; line-height: 19px;
+}
+.sample-questions #uiline {
+    position: absolute; width: 34px; height: 0px; top: 4532px; border: 1px solid #FFFFFF;
+}
 
 /* Menu Media Query (Large Phones) */
 @media only screen and (max-width: 600px) {
+    .what-we-do {
+        overflow-x: hidden;
+    }
+    .specs1 {
+        overflow-x: hidden;
+    }
+    .specs2 {
+        overflow-x: hidden;
+    }
+    .sample-questions {
+        overflow-x: hidden;
+    }
     .menu .swiper-container{
         width: auto;
         min-width: 200px; 
@@ -333,10 +368,11 @@
     }
     .menu .swiper-container .swiper-wrapper .swiper-slide #mac {
         position: absolute;
-        width: 370px;
+        width: 50px;
         height: 230px;
         top: 0px;
-        left: 50%; transform: translateX(-50%);
+        left: 50%;
+        transform: translateX(-50%);
         margin: 0;
         padding: 0; 
 
@@ -505,6 +541,31 @@
     }
     .specs2 #lvlthreemain {
         position: absolute; width: 300px; height: 44px; left: 10%; top: 3247px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 14px; line-height: 19px; color: #333333;
+    }
+    /* Samples Section */
+    .sample-questions #back {
+        position: absolute; order: 0; width: 100%; height: 900px; left: 0px; top: 3536px; background: rgba(30, 47, 79, 0.8)
+    }
+    .sample-questions #title {
+        position: absolute; width: 324px; height: 49px; left: 50%; transform: translateX(-50%); top: 3612px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 26px; line-height: 49px; color: #FFFFFF;
+    }
+    .sample-questions #problem {
+        position: absolute; width: auto; height: 750px; left: 0px; top: 3735px; order: 3; background: white;
+    }
+    .sample-questions #thepimg {
+        position: absolute; width: 100%; height: 720px; left: 0px; top: 3751px;
+    }
+    .sample-questions #lvl1but {
+        position: absolute; width: 65px; height: 19px; left: 593px; top: 4510px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 14px; line-height: 19px;
+    }
+    .sample-questions #lvl2but {
+        position: absolute; left: 696px; top: 4510px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 14px; line-height: 20px;
+    }
+    .sample-questions #lvl3but {
+        position: absolute; width: 65px; height: 19px; left: 799px; top: 4510px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 14px; line-height: 19px;
+    }
+    .sample-questions #uiline {
+        display: none; 
     }
 }
 
