@@ -50,7 +50,7 @@ $(document).ready(function() { //wait for shizzles to load
             });
             $('.sample-questions #prob').attr('src', 'prob/lvl2.png');
             $('.sample-questions #prob').css({
-                height: '500px',
+                height: '450px',
                 width: '700px'
             });
 
@@ -70,8 +70,8 @@ $(document).ready(function() { //wait for shizzles to load
             });
             $('.sample-questions #prob').attr('src', 'prob/lvl3.png');
             $('.sample-questions #prob').css({
-                height: '500px',
-                width: '690px'
+                height: '470px',
+                width: '680px'
             });
             current = 3; 
         }
