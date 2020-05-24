@@ -262,6 +262,9 @@
 
 /* Menu Media Query (Large Phones) */
 @media only screen and (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+    }
     .what-we-do {
         overflow-x: hidden;
     }
