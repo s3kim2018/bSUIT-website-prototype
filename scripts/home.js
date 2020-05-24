@@ -29,7 +29,7 @@ $(document).ready(function() { //wait for shizzles to load
             $('.sample-questions #uiline').css({
                 left: '598px',
             });
-            $('.sample-questions #prob').attr('src', 'prob/lvl1.PNG');
+            $('.sample-questions #prob').attr('src', 'prob/lvl1.png');
             current = 1; 
             $('.sample-questions #prob').css({
                 height: '720px',
@@ -48,7 +48,7 @@ $(document).ready(function() { //wait for shizzles to load
             $('.sample-questions #uiline').css({
                 left: '702px',
             });
-            $('.sample-questions #prob').attr('src', 'prob/lvl2.PNG');
+            $('.sample-questions #prob').attr('src', 'prob/lvl2.png');
             $('.sample-questions #prob').css({
                 height: '500px',
                 width: '700px'
@@ -68,7 +68,7 @@ $(document).ready(function() { //wait for shizzles to load
             $('.sample-questions #uiline').css({
                 left: '804px',
             });
-            $('.sample-questions #prob').attr('src', 'prob/lvl3.PNG');
+            $('.sample-questions #prob').attr('src', 'prob/lvl3.png');
             $('.sample-questions #prob').css({
                 height: '500px',
                 width: '690px'
