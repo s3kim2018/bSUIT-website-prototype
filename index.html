@@ -16,34 +16,38 @@
     <!-- This section is the main menu part of the website.-->
     <div class = "menu">
 
-        <div class="swiper-container" style = "background-size: 100%; position: absolute; width: 1440px; height: 848px; background-image:url('img/box.png')">
+        <div class="swiper-container" style = "background-image:url('img/box.png')">
             <!-- This is the Logo--> 
-            <img src = "img/logo.png" style = "float: left; width: 143px; height: 143px; margin-left: 160px; margin-top: 18px">
+            <img id = "logo" src = "img/logo.png">
+            <!-- This is the Menu Icon (hidden by default)-->
+            <img id = "menuicon" src = "img/menu.png">
             <!-- This is the Menu--> 
-            <div style = "display: flex; position: absolute; padding-top: 85px; padding-left: 800px; z-index: 2">
-                <p class = "mbutton" id = "uno" style = "color: white; position: relative; font-family: 'Open Sans', sans-serif; font-weight:500; white-space: nowrap;"> HOME </p> 
-                <p class = "mbutton" id = "dos" style = "color: white; position: relative; font-family: 'Open Sans', sans-serif; font-weight:500; margin-left: 40px; white-space: nowrap;"> What We Do </p>
-                <p class = "mbutton" id = "tres" style = "color: white; position: relative; font-family: 'Open Sans', sans-serif; font-weight:500; margin-left: 40px; white-space: nowrap;"> Our Service </p> 
-                <p class = "mbutton" id = "quatro" style = "color: white; position: relative; font-family: 'Open Sans', sans-serif; font-weight:500; margin-left: 40px; white-space: nowrap;"> Sample Problems </p> 
+            <div class = "words">
+                <p class = "mbutton" id = "uno"> HOME </p> 
+                <p class = "mbutton" id = "dos"> What We Do </p>
+                <p class = "mbutton" id = "tres"> Our Service </p> 
+                <p class = "mbutton" id = "quatro"> Sample Problems </p> 
             </div>
             <div class="swiper-wrapper">
                 <!-- Slides -->
                 <div class="swiper-slide">
+                    <!-- Computer Pic -->
+                    <img src = "img/computer.png" id = "mac">
                     <!-- The Text Section --> 
-                    <div class = "main" style = "position: absolute; width: 556px; height: 173px; left: 166px; top: 170px; font-family: 'Open Sans', sans-serif; font-weight: bold; font-size: 38px; line-height: 52px; color: white;">
+                    <div class = "main">
                         <p>Prove your capacity</p>
                         <p>Break your limits</p>
                         <p>Wear "<span style = "color: #6495ED">SUIT</span>" for your success</p>
                     </div>
                     <!-- The Button --> 
-                    <div id = "regbutton" style = "margin: 0; padding: 0; z-index: 1; position: absolute; width: 309px; height: 56px; left: 166px; top: 377px; background: #F16464; border-radius: 28px;">
+                    <div id = "regbutton">
                         <p style = "color: white; font-family: 'Open Sans', sans-serif; font-weight: 600; font-size: 24px; line-height: 33px; text-align: center;  line-height: 56px;"> Create Account</p>
                     </div>
-                    <img src = "img/computer.png" id = "mac" style = "position: absolute; width: 500px; height: 300px; left: 167px; top: 30px; padding-left: 630px; padding-top: 90px">
                 </div>
                 <div class="swiper-slide">
-                    <p id = "page2but" style = "position: absolute; left: 900px; top: 358px; color: yellow; font-family: 'Open Sans', sans-serif; font-size: 20px; font-weight: bold; z-index: 2"> <a href = "competition.html" style = "z-index: 2; color: yellow">Click Here</a> to Learn More! </p>
+                    <p id = "page2but"> <a href = "competition.html" style = "z-index: 2; color: yellow">Click Here</a> to Learn More! </p>
                     <img id = "banner"  style = "position: absolute; top: -40px; left: 100px;" src = "img/banner.png">
+                    <img id = "phonebanner" src = "img/phonebanner.png">
                 </div>
             </div>
             <!-- pagination -->

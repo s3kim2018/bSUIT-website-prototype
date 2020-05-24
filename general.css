@@ -1,6 +1,40 @@
 *{
     margin: 0; 
 }
+
+/* MENU  */
+.menu .swiper-container {
+    width: 100%; 
+    background-size: 100%;
+    position: absolute;
+    height: 848px;
+}
+.menu .swiper-container #logo {
+    float: left;
+    width: 143px;
+    height: 143px;
+    margin-left: 160px;
+    margin-top: 18px
+}
+.menu .swiper-container .words {
+    display: flex; position: absolute; padding-top: 85px; padding-left: 800px; z-index: 2;
+}
+.menu .swiper-container .words #uno {
+    color: white; position: relative; font-family: 'Open Sans', sans-serif; font-weight:500; white-space: nowrap;
+}
+.menu .swiper-container .words #dos {
+    color: white; position: relative; font-family: 'Open Sans', sans-serif; font-weight:500; margin-left: 40px; white-space: nowrap;
+}
+.menu .swiper-container .words #tres {
+    color: white; position: relative; font-family: 'Open Sans', sans-serif; font-weight:500; margin-left: 40px; white-space: nowrap;
+}
+.menu .swiper-container .words #quatro {
+    color: white; position: relative; font-family: 'Open Sans', sans-serif; font-weight:500; margin-left: 40px; white-space: nowrap;
+}
+
+.menu .swiper-container #menuicon {
+    display: none; 
+}
 .menu .mbutton {
     opacity: 0.83;
 }
@@ -13,11 +47,156 @@
 .menu #regbutton:hover {
     cursor: pointer; 
 }
-
 .menu #banner {
     width: 1200px;
     height: 630px;
 }
+.menu .swiper-container .swiper-wrapper .swiper-slide #phonebanner {
+    display: none; 
+}
+.menu .swiper-container .swiper-wrapper .swiper-slide #mac {
+    position: absolute; width: 500px; height: 300px; left: 167px; top: 30px; padding-left: 630px; padding-top: 90px;
+}
+.menu .swiper-container .swiper-wrapper .swiper-slide .main {
+    position: absolute; width: 556px; height: 173px; left: 166px; top: 170px; font-family: 'Open Sans', sans-serif; font-weight: bold; font-size: 38px; line-height: 52px; color: white;
+}
+.menu .swiper-container .swiper-wrapper .swiper-slide #regbutton {
+    margin: 0; padding: 0; z-index: 1; position: absolute; width: 309px; height: 56px; left: 166px; top: 377px; background: #F16464; border-radius: 28px;
+}
+.menu .swiper-container .swiper-wrapper .swiper-slide #page2but {
+    position: absolute; left: 900px; top: 358px; color: yellow; font-family: 'Open Sans', sans-serif; font-size: 20px; font-weight: bold; z-index: 2
+}
+
+
+
+
+/* Menu Media Query */
+@media only screen and (max-width: 600px) {
+    .menu .swiper-container{
+        width: 100%;
+        height: 848px;
+    }
+    .menu .swiper-container #logo {
+        width: 140px;
+        height: 140px;
+        margin: auto; 
+        padding: 25px
+
+    }
+    .menu .swiper-container #menuicon {
+        display: block; 
+        width: 100px;
+        height: 100px; 
+        padding-left: 40%;
+        padding-top: 40px; 
+    }
+    .menu .swiper-container .words {
+        margin-top: 23px; 
+        text-align: left;
+        display: none; 
+    }
+    .menu .swiper-container .words #uno {
+        background-color: rgba(30, 34, 68, 0.7);
+        position: absolute;
+        width: 100%;
+        line-height: 40px;
+        padding-left: 80px;
+        height: 40px;
+        left: 0px; 
+        top: 0px;
+        color: white; 
+        font-family: 'Open Sans', sans-serif;
+        font-weight:600;
+    }
+    .menu .swiper-container .words #dos {
+        background-color: rgba(30, 34, 68, 0.95);
+        position: absolute;
+        width: 100%;
+        line-height: 40px;
+        padding-left: 80px;
+        margin-left: 0; 
+        height: 40px;
+        left: 0px; 
+        top: 40px;
+        color: white; 
+        font-family: 'Open Sans', sans-serif;
+        font-weight:600;
+    }
+    .menu .swiper-container .words #tres {
+        background-color: rgba(30, 34, 68, 0.7);
+        position: absolute;
+        width: 100%;
+        line-height: 40px;
+        padding-left: 80px;
+        margin-left: 0; 
+        height: 40px;
+        left: 0px; 
+        top: 80px;
+        color: white; 
+        font-family: 'Open Sans', sans-serif;
+        font-weight:600;
+    }
+    .menu .swiper-container .words #quatro {
+        background-color: rgba(30, 34, 68, 0.95);
+        position: absolute;
+        width: 100%;
+        line-height: 40px;
+        padding-left: 80px;
+        margin-left: 0; 
+        height: 40px;
+        left: 0px; 
+        top: 120px;
+        color: white; 
+        font-family: 'Open Sans', sans-serif;
+        font-weight:600;
+    }
+    .menu .swiper-container .swiper-wrapper .swiper-slide #phonebanner {
+        display: inline-block;
+        top: 0px;
+        width: 420px;
+        height: 440px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .menu .swiper-container .swiper-wrapper .swiper-slide #banner {
+        display: none;
+    }
+    .menu .swiper-container .swiper-wrapper .swiper-slide #mac {
+        position: absolute;
+        width: 370px;
+        height: 230px;
+        top: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 0;
+        padding: 0; 
+
+    }
+    .menu .swiper-container .swiper-wrapper .swiper-slide .main {
+        position: absolute;
+        width: 300px;
+        height: 183px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 270px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 32px;
+        color: white;
+    }
+    .menu .swiper-container .swiper-wrapper .swiper-slide #regbutton {
+        margin: 0; padding: 0; z-index: 1; position: absolute; width: 309px; height: 56px; left: 50%; transform: translateX(-50%);
+        top: 410px; background: #F16464; border-radius: 28px;
+    }
+    .menu .swiper-container .swiper-wrapper .swiper-slide #page2but {
+        margin: 0; padding: 0;
+        position: absolute; left: 50%; transform: translateX(-50%); top: 450px;
+    }
+}
+
 
 
 
