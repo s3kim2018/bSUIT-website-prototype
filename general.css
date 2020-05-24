@@ -4,7 +4,7 @@
 
 /* MENU  */
 .menu .swiper-container {
-    width: 1440px; 
+    width: auto; 
     height: 848px;
 }
 .menu .swiper-container #logo {
@@ -101,7 +101,7 @@
 /* Menu Media Query */
 @media only screen and (max-width: 600px) {
     .menu .swiper-container{
-        width: 100%;
+        width: auto;
         height: 848px;
     }
     .menu .swiper-container #logo {
