@@ -114,7 +114,7 @@ $(document).ready(function() {
             scrollTop: $("#rapper #anchor2").offset().top
         }, 1000);
     });
-    $('#rapper .menu .swiper-container .words #quatro').on('click', function() {
+    $('#rapper .menu .swiper-container .words #quatro').on('click', async function() {
         if (toggled == 1) {
             await slidetop();
         }
