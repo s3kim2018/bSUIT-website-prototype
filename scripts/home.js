@@ -81,33 +81,48 @@ $(document).ready(function() { //wait for shizzles to load
 
 /* Menu Buttons */
 $(document).ready(function() {
+    let toggled = 0; 
+
+    function slidetop() {
+        $('.menu .swiper-container .words').slideUp(30);
+        toggled = 0;
+    }
     $('.menu #page2 #banner').hide();
     $('.menu #page2 .contain').hide();
 
-
-    $('#rapper .menu .swiper-container .words #uno').on('click', function() {
+    $('#rapper .menu .swiper-container .words #uno').on('click', async function() {
+        if (toggled == 1) {
+            await slidetop();
+        }
         $('html, body, #rapper').animate({
             scrollTop: $("#rapper #anchor0").offset().top
         }, 1000);
     });
-    $('#rapper .menu .swiper-container .words #dos').on('click', function() {
-        console.log("hi");
+    $('#rapper .menu .swiper-container .words #dos').on('click', async function() {
+        if (toggled == 1) {
+            await slidetop();
+        }
         $('html, body, #rapper').animate({
             scrollTop: $("#rapper #anchor1").offset().top
         }, 1000);
     });
-    $('#rapper .menu .swiper-container .words #tres').on('click', function() {
+    $('#rapper .menu .swiper-container .words #tres').on('click', async function() {
+        if (toggled == 1) {
+            await slidetop();
+        }
         $('html, body, #rapper').animate({
             scrollTop: $("#rapper #anchor2").offset().top
         }, 1000);
     });
     $('#rapper .menu .swiper-container .words #quatro').on('click', function() {
+        if (toggled == 1) {
+            await slidetop();
+        }
         $('html, body, #rapper').animate({
             scrollTop: $("#rapper #anchor3").offset().top
         }, 1000);
     });
 
-    let toggled = 0; 
     $('.menu .swiper-container #menuicon').on('click', function() {
         if (toggled == 0) {
             $('.menu .swiper-container .words').slideDown(100);
