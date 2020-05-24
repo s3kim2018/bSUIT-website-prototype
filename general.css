@@ -82,10 +82,9 @@
     min-width: 400px;
     width: 33%;
     height: 300px;
-    left: 167px;
-    top: 30px;
-    padding-left: 630px;
-    padding-top: 90px;
+    left: 820px;
+    top: 100px;
+
 }
 .menu .swiper-container .swiper-wrapper .swiper-slide .main {
     position: absolute; width: 556px; height: 173px; left: 166px; top: 170px; font-family: 'Open Sans', sans-serif; font-weight: bold; font-size: 38px; line-height: 52px; color: white;
