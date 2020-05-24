@@ -109,11 +109,11 @@ $(document).ready(function() {
     let toggled = 0; 
     $('.menu .swiper-container #menuicon').on('click', function() {
         if (toggled == 0) {
-            $('.menu .swiper-container .words').show(400);
+            $('.menu .swiper-container .words').slideDown(100);
             toggled = 1;
         } 
         else {
-            $('.menu .swiper-container .words').hide(400);
+            $('.menu .swiper-container .words').slideUp(100);
             toggled = 0; 
         }
 
