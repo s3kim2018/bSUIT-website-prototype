@@ -1,6 +1,9 @@
 *{
     margin: 0; 
 }
+body {
+    overflow-x: hidden;
+}
 
 /* MENU  */
 .menu .swiper-container {
