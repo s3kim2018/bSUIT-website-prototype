@@ -366,6 +366,7 @@
     }
     #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #mac {
         position: absolute;
+        z-index: -1; 
         width: 330px;
         height: 220px;
         top: 0px;
