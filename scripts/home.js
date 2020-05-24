@@ -85,24 +85,25 @@ $(document).ready(function() {
     $('.menu #page2 .contain').hide();
 
 
-    $('.menu #uno').on('click', function() {
-        $('html, body').animate({
-            scrollTop: $("#anchor0").offset().top
+    $('#rapper .menu .swiper-container .words #uno').on('click', function() {
+        $('html, body, #rapper').animate({
+            scrollTop: $("#rapper #anchor0").offset().top
         }, 1000);
     });
-    $('.menu #dos').on('click', function() {
-        $('html, body').animate({
-            scrollTop: $("#anchor1").offset().top
+    $('#rapper .menu .swiper-container .words #dos').on('click', function() {
+        console.log("hi");
+        $('html, body, #rapper').animate({
+            scrollTop: $("#rapper #anchor1").offset().top
         }, 1000);
     });
-    $('.menu #tres').on('click', function() {
-        $('html, body').animate({
-            scrollTop: $("#anchor2").offset().top
+    $('#rapper .menu .swiper-container .words #tres').on('click', function() {
+        $('html, body, #rapper').animate({
+            scrollTop: $("#rapper #anchor2").offset().top
         }, 1000);
     });
-    $('.menu #quatro').on('click', function() {
-        $('html, body').animate({
-            scrollTop: $("#anchor3").offset().top
+    $('#rapper .menu .swiper-container .words #quatro').on('click', function() {
+        $('html, body, #rapper').animate({
+            scrollTop: $("#rapper #anchor3").offset().top
         }, 1000);
     });
 
