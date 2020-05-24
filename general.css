@@ -6,6 +6,8 @@
 .menu .swiper-container {
     width: auto; 
     height: 848px;
+    margin: 0;
+    padding: 0;
 }
 .menu .swiper-container #logo {
     float: left;
