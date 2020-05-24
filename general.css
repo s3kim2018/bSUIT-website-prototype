@@ -120,7 +120,7 @@
         top: 37px; 
     }
     .menu .swiper-container .words {
-        margin-top: 23px; 
+        margin-top: 140px; 
         text-align: left;
         display: none; 
     }
@@ -182,7 +182,7 @@
     .menu .swiper-container .swiper-wrapper .swiper-slide #phonebanner {
         display: inline-block;
         top: 0px;
-        width: 380x;
+        width: 350px;
         height: 440px;
         position: relative;
         left: 50%;
@@ -205,7 +205,7 @@
     .menu .swiper-container .swiper-wrapper .swiper-slide .main {
         position: absolute;
         width: 300px;
-        height: 183px;
+        height: 170px;
         left: 50%;
         transform: translateX(-50%);
         top: 270px;
@@ -222,7 +222,7 @@
     }
     .menu .swiper-container .swiper-wrapper .swiper-slide #page2but {
         margin: 0; padding: 0;
-        position: absolute; left: 50%; transform: translateX(-50%); top: 450px;
+        position: absolute; left: 50%; transform: translateX(-50%); top: 450px; font-size: 17px;
     }
 }
 
