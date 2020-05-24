@@ -309,7 +309,7 @@
         color: white; 
         font-family: 'Open Sans', sans-serif;
         font-weight:600;
-        z-index: 2;
+        z-index: -1000;
     }
     #rapper .menu .swiper-container .words #dos {
         background-color: rgba(30, 34, 68, 0.95);
@@ -324,7 +324,7 @@
         color: white; 
         font-family: 'Open Sans', sans-serif;
         font-weight:600;
-        z-index: 2;
+        z-index: -1000;
     }
     #rapper .menu .swiper-container .words #tres {
         background-color: rgba(30, 34, 68, 0.7);
@@ -339,7 +339,7 @@
         color: white; 
         font-family: 'Open Sans', sans-serif;
         font-weight:600;
-        z-index: 2;
+        z-index: -1000;
     }
     #rapper .menu .swiper-container .words #quatro {
         background-color: rgba(30, 34, 68, 0.95);
