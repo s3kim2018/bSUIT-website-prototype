@@ -30,10 +30,11 @@ $(document).ready(function() { //wait for shizzles to load
                 left: '598px',
             });
             $('.sample-questions #prob').attr('src', 'prob/lvl1.PNG');
-            $('.sample-questions #prob').css({
-                height: '720px'
-            });
             current = 1; 
+            $('.sample-questions #prob').css({
+                height: '720px',
+                width: '700px'
+            });
         }
     });
     $('.sample-questions #lvl2but').on('click', function() {
@@ -49,8 +50,10 @@ $(document).ready(function() { //wait for shizzles to load
             });
             $('.sample-questions #prob').attr('src', 'prob/lvl2.PNG');
             $('.sample-questions #prob').css({
-                height: '500px'
+                height: '500px',
+                width: '700px'
             });
+
             current = 2; 
         }
     });
@@ -68,8 +71,7 @@ $(document).ready(function() { //wait for shizzles to load
             $('.sample-questions #prob').attr('src', 'prob/lvl3.PNG');
             $('.sample-questions #prob').css({
                 height: '500px',
-                width: '650px',
-                'padding-left': '50px'
+                width: '690px'
             });
             current = 3; 
         }
@@ -104,54 +106,6 @@ $(document).ready(function() {
         }, 1000);
     });
 
-
-    /* Swipe button listeners */
-    let state = 0; 
-    let clickDisabled = false; 
-
-    /* Note, the click is disalbed for 430ns to stop the dom from crashing and causing undefined */
-    $('.menu #rightb').on('click', async function() {
-        if (clickDisabled == true) {
-            return; 
-        }
-        if (state == 0){
-            $('.menu #page2').css({
-                visibility: 'visible'
-            });
-            // $('.menu #page1').hide('slide', {direction: 'left', distance: 1100, queue: false}); 
-            // $('.menu #page2 .contain').show('slide', {direction: 'right', distance: 1400, queue: false});
-            // $('.menu #page2 #banner').show('slide', {direction: 'right', distance: 1500, queue: false});
-            $('.menu #page1').hide();
-            $('.menu #page2 #banner').show(); 
-            state = 1; 
-        } else if (state == 1) {
-            $('.menu #page2 .contain').hide('slide', {direction: 'left', distance: 1400, queue: false});
-            $('.menu #page2 #banner').hide('slide', {direction: 'left', distance: 1400, queue: false});
-            $('.menu #page1').show('slide', {direction: 'right', distance: 1400, queue: false});
-            state = 0; 
-        }
-        clickDisabled = true;
-        setTimeout(function(){clickDisabled = false;}, 430);
-    })
-
-    $('.menu #leftb').on('click', function() {
-        if (clickDisabled == true) {
-            return; 
-        }
-        if (state == 1) {
-            $('.menu #page2 .contain').hide('slide', {direction: 'right', distance: 1100, queue: false});
-            $('.menu #page2 #banner').hide('slide', {direction: 'right', queue: false});
-            $('.menu #page1').show('slide', {direction: 'left', queue: false}); 
-            state = 0; 
-        } else if (state == 0) {
-            $('.menu #page1').hide('slide', {direction: 'right', queue: false}); 
-            $('.menu #page2 .contain').show('slide', {direction: 'left', distance: 1100, queue: false});
-            $('.menu #page2 #banner').show('slide', {direction: 'left', queue: false});
-            state = 1; 
-        }
-        clickDisabled = true;
-        setTimeout(function(){clickDisabled = false;}, 430);     
-    });
 });
 
 
