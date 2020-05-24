@@ -177,15 +177,71 @@
 .specs1 #finrd-two {
     position: absolute; width: 479px; height: 73px; left: 783px; top: 2271px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 25px; color: #494949;
 }
+/* Certified Programmers Section */
+.specs2 .deco {
+    position: absolute; width: 517px; height: 891px; left: 923px; top: 2509px; background: #EFF6FE; border-radius: 0px 0px 500px 0px;
+}
+.specs2 #title {
+    position: absolute; width: 343px; height: 41px; left: 212px; top: 2643px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 30px; line-height: 41px; color: #535353;
+}
+.specs2 #stitle {
+    position: absolute; width: 170px; height: 30px; left: 482px; top: 2684px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: normal; font-size: 22px; line-height: 30px; color: #5576A8;
+}
+.specs2 #lvlone {
+    position: absolute; width: 63px; height: 25px; left: 212px; top: 2789px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 18px; line-height: 25px; color: #DCBA42;
+}
+.specs2 #interns {
+    position: absolute; width: 70px; height: 19px; left: 348px; top: 2792px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: 600; font-size: 14px; line-height: 19px; color: rgba(51, 51, 51, 0.6);
+}
+.specs2 #divone {
+    position: absolute; width: 497px; height: 0px; left: 212px; top: 2824px; border: 1px solid rgba(55, 55, 55, 0.3);
+    
+}
+.specs2 #lvlonetitle {
+    position: absolute; width: 140px; height: 30px; left: 212px; top: 2834px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: 600; font-size: 22px; line-height: 30px; color: #333333;
+}
+.specs2 #lvlonemain {
+    position: absolute; width: 227px; height: 44px; left: 212px; top: 2871px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 16px; line-height: 22px; color: #333333;
+}
+.specs2 #lvltwo {
+    position: absolute; width: 63px; height: 25px; left: 212px; top: 2956px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 18px; line-height: 25px; color: #DCBA42;
 
-
+}
+.specs2 #undergraduates {
+    position: absolute; width: 180px; height: 19px; left: 348px; top: 2956px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: 600; font-size: 14px; line-height: 19px; color: rgba(51, 51, 51, 0.6);
+}
+.specs2 #divtwo {
+    position: absolute; width: 497px; height: 0px; left: 212px; top: 2991px; border: 1px solid rgba(55, 55, 55, 0.3);
+}
+.specs2 #lvltwotitle {
+    position: absolute; width: 140px; height: 30px; left: 212px; top: 3001px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: 600; font-size: 22px; line-height: 30px; color: #333333;
+}
+.specs2 #lvltwomain {
+    position: absolute; width: 500px; height: 90px; left: 212px; top: 3038px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 16px; line-height: 22px; color: #333333;
+}
+.specs2 #lvlthree {
+    position: absolute; width: 63px; height: 25px; left: 212px; top: 3165px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 18px; line-height: 25px; color: #DCBA42;
+}
+.specs2 #graduates {
+    position: absolute; width: 300px; height: 19px; left: 348px; top: 3165px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: 600; font-size: 14px; line-height: 19px; color: rgba(51, 51, 51, 0.6);
+}
+.specs2 #divthree {
+    position: absolute; width: 497px; height: 0px; left: 212px; top: 3200px; border: 1px solid rgba(55, 55, 55, 0.3);
+}
+.specs2 #lvlthreetitle {
+    position: absolute; width: 140px; height: 30px; left: 212px; top: 3210px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: 600; font-size: 22px; line-height: 30px; color: #333333;
+}
+.specs2 #lvlthreemain {
+    position: absolute; width: 480px; height: 44px; left: 212px; top: 3247px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 16px; line-height: 22px; color: #333333;
+}
+/* Samples Section */
 
 
 /* Menu Media Query (Large Phones) */
 @media only screen and (max-width: 600px) {
     .menu .swiper-container{
         width: auto;
-        min-width: 300px; 
+        min-width: 200px; 
         height: 848px;
     }
     .menu .swiper-container #logo {
@@ -336,12 +392,9 @@
     .specs1 #ffirms {
         position: absolute; width: 150px; height: 30px; left: 50%; transform: translateX(-20%); top: 1661px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: normal; font-size: 22px; line-height: 30px; color: #5576A8;
     }
-
-    
     .specs1 #tbar {
         position: absolute; width: 618px; height: 0px; left: 392px; margin-left: -640px; top: 2050px; border: 2px solid #5576A8; transform: rotate(90deg)
     }
-
     .specs1 #op {
         position: absolute; width: 161px; height: 25px; left: 755px; margin-left: -640px; top: 1760px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: 600; font-size: 18px; line-height: 25px; color: #474333;
     }
@@ -382,19 +435,76 @@
         position: absolute; width: 7px; height: 7px; left: 755px; top: 2279px; margin-left: -640px; background: #5576A8;
     }
     .specs1 #firstrd-one {
-        position: absolute; width: 140px; height: 73px; left: 783px; top: 1864px; margin-left: -640px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 10px; line-height: 10px; overflow-y: hidden; color: #494949;
+        position: absolute; width: 200px; height: 73px; left: 783px; top: 1864px; margin-left: -640px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 12px; line-height: 12px; overflow-y: hidden; color: #494949;
     }
     .specs1 #firstrd-two {
-        position: absolute; width: 140px; height: 73px; left: 783px; top: 1962px; margin-left: -640px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 10px; line-height: 10px; color: #494949;
+        position: absolute; width: 200px; height: 73px; left: 783px; top: 1962px; margin-left: -640px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 12px; line-height: 12px; color: #494949;
     }
     .specs1 #secrd-one {
-        position: absolute; width: 140px; height: 73px; left: 783px; top: 2093px; margin-left: -640px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 10px; line-height: 10px; color: #494949;
+        position: absolute; width: 200px; height: 73px; left: 783px; top: 2093px; margin-left: -640px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 12px; line-height: 12px; color: #494949;
     }
     .specs1 #finrd-one {
-        position: absolute; width: 140px; height: 73px; left: 783px; top: 2204px; margin-left: -640px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 10px; line-height: 10px; color: #494949;
+        position: absolute; width: 200px; height: 73px; left: 783px; top: 2204px; margin-left: -640px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 12px; line-height: 12px; color: #494949;
     }
     .specs1 #finrd-two {
-        position: absolute; width: 140px; height: 73px; left: 783px; top: 2271px; margin-left: -640px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 10px; line-height: 10px; color: #494949;
+        position: absolute; width: 200px; height: 73px; left: 783px; top: 2271px; margin-left: -640px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 12px; line-height: 12px; color: #494949;
+    }
+    /* Certified Programmers Section */
+    .specs2 .deco {
+        display: none;
+    }
+    .specs2 #title {
+        position: absolute; height: 40px; left: 50%; transform: translateX(-50%); top: 2643px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 26px; line-height: 41px; color: #535353;
+    }
+    .specs2 #stitle {
+        position: absolute; width: 170px; height: 30px; left: 50%; transform: translateX(-20%); top: 2684px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: normal; font-size: 22px; line-height: 30px; color: #5576A8;
+    }
+    .specs2 #lvlone {
+        position: absolute; width: 63px; height: 25px; left: 10%; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 16px; line-height: 25px; color: #DCBA42;
+    }
+    .specs2 #interns {
+        position: absolute; width: 70px; height: 19px; left: 30%; top: 2792px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: 600; font-size: 12px; line-height: 19px; color: rgba(51, 51, 51, 0.6);
+    }
+    .specs2 #divone {
+        position: absolute; width: 330px; height: 0px; left: 10%; top: 2824px; border: 1px solid rgba(55, 55, 55, 0.3);
+    }
+    .specs2 #lvlonetitle {
+        position: absolute; width: 140px; height: 30px; left: 10%; top: 2834px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: 600; font-size: 20px; line-height: 26px; color: #333333;
+    }
+    .specs2 #lvlonemain {
+        position: absolute; width: 227px; height: 44px; left: 10%; top: 2871px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 14px; line-height: 20px; color: #333333;
+    }
+
+    .specs2 #lvltwo {
+        position: absolute; width: 63px; height: 25px; left: 10%; top: 2956px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 16px; line-height: 25px; color: #DCBA42;
+    }
+    .specs2 #undergraduates {
+        position: absolute; width: 180px; height: 19px; left: 30%; top: 2956px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: 600; font-size: 12px; line-height: 19px; color: rgba(51, 51, 51, 0.6);
+    }
+    .specs2 #divtwo {
+        position: absolute; width: 330px; height: 0px; left: 10%; top: 2991px; border: 1px solid rgba(55, 55, 55, 0.3);
+    }
+    .specs2 #lvltwotitle {
+        position: absolute; width: 140px; height: 30px; left: 10%; top: 3001px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: 600; font-size: 20px; line-height: 26px; color: #333333;
+    }
+    .specs2 #lvltwomain {
+        position: absolute; width: 300px; height: 90px; left: 10%; top: 3038px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 14px; line-height: 20px; color: #333333;
+    }
+
+    .specs2 #lvlthree {
+        position: absolute; width: 63px; height: 25px; left: 10%; top: 3165px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 16px; line-height: 25px; color: #DCBA42;
+    }
+    .specs2 #graduates {
+        position: absolute; width: 300px; height: 19px; left: 30%; top: 3165px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: 600; font-size: 12px; line-height: 19px; color: rgba(51, 51, 51, 0.6);
+    }
+    .specs2 #divthree {
+        position: absolute; width: 330px; height: 0px; left: 10%; top: 3200px; border: 1px solid rgba(55, 55, 55, 0.3);
+    }
+    .specs2 #lvlthreetitle {
+        position: absolute; width: 140px; height: 30px; left: 10%; top: 3210px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: 600; font-size: 20px; line-height: 26px; color: #333333;
+    }
+    .specs2 #lvlthreemain {
+        position: absolute; width: 300px; height: 44px; left: 10%; top: 3247px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 14px; line-height: 19px; color: #333333;
     }
 }
 
