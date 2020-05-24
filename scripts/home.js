@@ -1,3 +1,17 @@
+
+$(document).ready(function () {
+    //initialize swiper when document ready
+    var mySwiper = new Swiper ('.swiper-container', {
+      // Optional parameters
+      direction: 'horizontal',
+      loop: true,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    })
+  });
+
 /* Sample Questions Section */
 $(document).ready(function() { //wait for shizzles to load
     let current = 1;  
@@ -104,14 +118,16 @@ $(document).ready(function() {
             $('.menu #page2').css({
                 visibility: 'visible'
             });
-            $('.menu #page1').hide('slide', {direction: 'left', distance: 1100, queue: false}); 
-            $('.menu #page2 .contain').show('slide', {direction: 'right', distance: 1400, queue: false});
-            $('.menu #page2 #banner').show('slide', {direction: 'right', distance: 1400, queue: false});
+            // $('.menu #page1').hide('slide', {direction: 'left', distance: 1100, queue: false}); 
+            // $('.menu #page2 .contain').show('slide', {direction: 'right', distance: 1400, queue: false});
+            // $('.menu #page2 #banner').show('slide', {direction: 'right', distance: 1500, queue: false});
+            $('.menu #page1').hide();
+            $('.menu #page2 #banner').show(); 
             state = 1; 
         } else if (state == 1) {
-            $('.menu #page2 .contain').hide('slide', {direction: 'left', distance: 1100, queue: false});
-            $('.menu #page2 #banner').hide('slide', {direction: 'left', queue: false});
-            $('.menu #page1').show('slide', {direction: 'right', queue: false});
+            $('.menu #page2 .contain').hide('slide', {direction: 'left', distance: 1400, queue: false});
+            $('.menu #page2 #banner').hide('slide', {direction: 'left', distance: 1400, queue: false});
+            $('.menu #page1').show('slide', {direction: 'right', distance: 1400, queue: false});
             state = 0; 
         }
         clickDisabled = true;

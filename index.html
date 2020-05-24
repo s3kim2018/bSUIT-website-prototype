@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <head>
     <title>HOME</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
 </head>
 <body>
     <!-- Where the menu bars go to -->
@@ -11,48 +13,47 @@
 
 
     <!-- This section is the main menu part of the website.-->
-    <div class = "menu" style = "background-size: 100%; position: absolute; width: 1440px; height: 848px; background-image:url('img/box.png')">
-        <!-- This is the Logo--> 
-        <img src = "img/logo.png" style = "float: left; width: 143px; height: 143px; margin-left: 160px; margin-top: 18px">
-        <!-- This is the Menu--> 
-        <div style = "display: flex; position: absolute; padding-top: 85px; padding-left: 800px">
-            <p class = "mbutton" id = "uno" style = "color: white; position: relative; font-family: 'Open Sans', sans-serif; font-weight:500; white-space: nowrap;"> HOME </p> 
-            <p class = "mbutton" id = "dos" style = "color: white; position: relative; font-family: 'Open Sans', sans-serif; font-weight:500; margin-left: 40px; white-space: nowrap;"> What We Do </p>
-            <p class = "mbutton" id = "tres" style = "color: white; position: relative; font-family: 'Open Sans', sans-serif; font-weight:500; margin-left: 40px; white-space: nowrap;"> Our Service </p> 
-            <p class = "mbutton" id = "quatro" style = "color: white; position: relative; font-family: 'Open Sans', sans-serif; font-weight:500; margin-left: 40px; white-space: nowrap;"> Sample Problems </p> 
-        </div>
-        <!-- arrows-->
-        <img class = "swipebutton" id ="leftb" src = "img/left.png" style = "z-index: 1; position: absolute; width: 35px; height: 45px; top: 370px; left: 10px">
-        <img class = "swipebutton" id = "rightb" src = "img/right.png" style = "z-index: 1; position: absolute; width: 35px; height: 45px; top: 370px; left: 1400px">
+    <div class = "menu">
 
-
-        <!-- Here Starts the First Page-->
-        <div id = "page1" style = "width: 1400px; height: 800px">
-            <!-- The Text Section --> 
-            <div class = "main" style = "position: absolute; width: 556px; height: 173px; left: 166px; top: 322px; font-family: 'Open Sans', sans-serif; font-weight: bold; font-size: 38px; line-height: 52px; color: white;">
-                <p>Prove your capacity</p>
-                <p>Break your limits</p>
-                <p>Wear "<span style = "color: #6495ED">SUIT</span>" for your success</p>
+        <div class="swiper-container" style = "background-size: 100%; position: absolute; width: 1440px; height: 848px; background-image:url('img/box.png')">
+            <!-- This is the Logo--> 
+            <img src = "img/logo.png" style = "float: left; width: 143px; height: 143px; margin-left: 160px; margin-top: 18px">
+            <!-- This is the Menu--> 
+            <div style = "display: flex; position: absolute; padding-top: 85px; padding-left: 800px; z-index: 2">
+                <p class = "mbutton" id = "uno" style = "color: white; position: relative; font-family: 'Open Sans', sans-serif; font-weight:500; white-space: nowrap;"> HOME </p> 
+                <p class = "mbutton" id = "dos" style = "color: white; position: relative; font-family: 'Open Sans', sans-serif; font-weight:500; margin-left: 40px; white-space: nowrap;"> What We Do </p>
+                <p class = "mbutton" id = "tres" style = "color: white; position: relative; font-family: 'Open Sans', sans-serif; font-weight:500; margin-left: 40px; white-space: nowrap;"> Our Service </p> 
+                <p class = "mbutton" id = "quatro" style = "color: white; position: relative; font-family: 'Open Sans', sans-serif; font-weight:500; margin-left: 40px; white-space: nowrap;"> Sample Problems </p> 
             </div>
-            <!-- The Button --> 
-            <div id = "regbutton" style = "margin: 0; padding: 0; z-index: 1; position: absolute; width: 309px; height: 56px; left: 166px; top: 537px; background: #F16464; border-radius: 28px;">
-                <p style = "color: white; font-family: 'Open Sans', sans-serif; font-weight: 600; font-size: 24px; line-height: 33px; text-align: center;  line-height: 56px;"> Create Account</p>
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <!-- The Text Section --> 
+                    <div class = "main" style = "position: absolute; width: 556px; height: 173px; left: 166px; top: 170px; font-family: 'Open Sans', sans-serif; font-weight: bold; font-size: 38px; line-height: 52px; color: white;">
+                        <p>Prove your capacity</p>
+                        <p>Break your limits</p>
+                        <p>Wear "<span style = "color: #6495ED">SUIT</span>" for your success</p>
+                    </div>
+                    <!-- The Button --> 
+                    <div id = "regbutton" style = "margin: 0; padding: 0; z-index: 1; position: absolute; width: 309px; height: 56px; left: 166px; top: 377px; background: #F16464; border-radius: 28px;">
+                        <p style = "color: white; font-family: 'Open Sans', sans-serif; font-weight: 600; font-size: 24px; line-height: 33px; text-align: center;  line-height: 56px;"> Create Account</p>
+                    </div>
+                    <img src = "img/computer.png" id = "mac" style = "position: absolute; width: 500px; height: 300px; left: 167px; top: 30px; padding-left: 630px; padding-top: 90px">
+                </div>
+                <div class="swiper-slide">
+                    <div class = "contain" style = "position: absolute; left: 900px; top: 358px;">
+                        <p id = "page2but" style = "color: yellow; font-family: 'Open Sans', sans-serif; font-size: 20px; font-weight: bold; z-index: 2"> <a href = "competition.html" style = "z-index: 2; color: yellow">Click Here</a> to Learn More! </p>
+                    </div>
+                    <img id = "banner"  style = "position: absolute; top: -40px; left: 100px;" src = "img/banner.png">
+                </div>
             </div>
-            <!-- <p style = "color:white; position: absolute; width: 178px; height: 33px; left: 231px; top: 548px; font-family: 'Open Sans', sans-serif; font-weight: 600; font-size: 24px; line-height: 33px; text-align: center">Create Account</p>-->
-
-            <!-- The Computer --> 
-            <img src = "img/computer.png" id = "mac" style = "position: absolute; width: 500px; height: 300px; left: 167px; top: 180px; padding-left: 630px; padding-top: 90px">
+            <!-- pagination -->
+            <div class="swiper-pagination"></div>
+        
+            <!-- navigation buttons -->
+            <div class="swiper-button-prev swiperb" style = "color: white; opacity: 0.8"></div>
+            <div class="swiper-button-next swiperb" style = "color: white; opacity: 0.8"></div>
         </div>
-
-        <!-- Here Starts the Second Page -->
-        <div id = "page2" style = "width: 1400px; height: 1300px; visibility: visible">
-            <div class = "contain" style = "position: absolute; left: 900px; top: 518px;">
-                <p id = "page2but" style = "color: yellow; font-family: 'Open Sans', sans-serif; font-size: 20px; font-weight: bold "> <a href = "" style = "color: yellow">Click Here</a> to Learn More! </p>
-            </div>
-            <img id = "banner"  style = "position: absolute; top: 140px; left: 100px;" src = "img/banner.png">
-        </div>
-
-
     </div>
 
     <!-- What We Do Section --> 
@@ -173,6 +174,8 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <link href = "https://code.jquery.com/ui/1.12.1/themes/ui-lightness/jquery-ui.css" rel = "stylesheet">
+    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
     <script src = "https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src = "scripts/home.js"></script>
     <link rel="stylesheet" href="general.css">
