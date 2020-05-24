@@ -4,7 +4,7 @@
 
 /* MENU  */
 .menu .swiper-container {
-    width: 100%; 
+    width: 1440px; 
     height: 848px;
 }
 .menu .swiper-container #logo {
@@ -77,7 +77,8 @@
 }
 .menu .swiper-container .swiper-wrapper .swiper-slide #mac {
     position: absolute;
-    width: 500px;
+    min-width: 400px;
+    width: 33%;
     height: 300px;
     left: 167px;
     top: 30px;
