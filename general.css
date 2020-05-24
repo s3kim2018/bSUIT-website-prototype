@@ -112,10 +112,11 @@
     }
     .menu .swiper-container #menuicon {
         display: block; 
+        position: absolute;
+        right: 10px;
         width: 100px;
         height: 100px; 
-        padding-left: 40%;
-        padding-top: 40px; 
+        top: 37px; 
     }
     .menu .swiper-container .words {
         margin-top: 23px; 
