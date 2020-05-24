@@ -5,7 +5,6 @@ $(document).ready(function () {
       // Optional parameters
       direction: 'horizontal',
       loop: true,
-      watchOverflow: true,
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
