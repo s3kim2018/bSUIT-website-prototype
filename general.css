@@ -86,7 +86,6 @@
     height: 34%;
     left: 820px;
     top: 100px;
-
 }
 #rapper .menu .swiper-container .swiper-wrapper .swiper-slide .main {
     position: absolute; width: 40%; height: 173px; left: 166px; top: 170px; font-family: 'Open Sans', sans-serif; font-weight: bold; font-size: 38px; line-height: 52px; color: white;
@@ -158,7 +157,7 @@
 #rapper .specs1 #tmbullet {
     position: absolute; width: 7px; height: 7px; left: 755px; top: 2102px; background: #5576A8;
 }
-#rapper .specs1 #fmbullet {
+#rapper .specs1 #fombullet {
     position: absolute; width: 7px; height: 7px; left: 755px; top: 2213px; background: #5576A8;
 }
 #rapper .specs1 #fifth-mbullet {
@@ -574,7 +573,7 @@
         left: 50%; transform: translateX(-50%); top: 210px; width: 100%; height: 740px; overflow-x: hidden; 
     }
     #rapper .sample-questions .swiper-containerdos .swiper-wrapper #first {
-        background: url(prob/lvl1.png); background-size: 100% 620px; background-repeat: no-repeat;
+        background: url(prob/lvl1.png); background-size: 100% 580px; background-repeat: no-repeat;
     }
     #rapper .sample-questions .swiper-containerdos .swiper-wrapper #second {
         background: url(prob/lvl2.png); background-size: 100% 50%; background-repeat: no-repeat;
@@ -595,6 +594,116 @@
         position: absolute; left: 35%; transform: translateX(-50%); width: 34px; height: 0px; top: 1030px; border: 1px solid #FFFFFF;
     }
 }
+
+/* Ipad Optimization! */
+@media only screen and (max-width: 1024px) {
+    /* Menu */
+    #rapper .menu .swiper-container .swiper-wrapper .swiper-slide .main {
+        position: absolute; width: 40%; height: 173px; left: 130px; top: 170px; font-family: 'Open Sans', sans-serif; font-weight: bold; font-size: 28px; line-height: 47px; color: white;
+    }
+    #rapper .menu #banner {
+        width: 84%;
+        height: 570px;
+    }
+    #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #regbutton {
+        margin: 0; padding: 0; z-index: 1; position: absolute; width: 309px; height: 56px; left: 280px; transform: translateX(-50%);
+        top: 410px; background: #F16464; border-radius: 28px;
+    }
+    #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #phonebanner {
+        display: none; 
+    }
+    #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #mac {
+        position: absolute;
+        z-index: 0;
+        width: 36%;
+        height: 30%;
+        left: 55%;
+        top: 14%;
+    }
+    #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #page2but {
+        position: absolute; left: 63%; top: 300px; color: yellow; font-family: 'Open Sans', sans-serif; font-size: 20px; font-weight: bold; z-index: 2
+    }
+    #rapper .menu .swiper-container .words {
+        display: flex;
+        position: absolute;
+        padding-top: 85px;
+        padding-left: 45%;
+        z-index: 2;
+    }
+    /* Interview Assistance Section */
+    #rapper .specs1 .deco1 {
+        display: none; 
+    } 
+    #rapper .specs1 #interviewassist {
+        position: absolute; width: 311px; height: 41px; left: 50%; transform: translateX(-50%); top: 1620px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 30px; line-height: 41px; color: #484848;
+    }
+    #rapper .specs1 #ffirms {
+        position: absolute; width: 150px; height: 30px; left: 65%; transform: translateX(-50%); top: 1661px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: normal; font-size: 22px; line-height: 30px; color: #5576A8;
+    }
+    #rapper .specs1 #tbar {
+        position: absolute; width: 618px; height: 0px; left: 392px; margin-left: -480px; top: 2050px; border: 2px solid #5576A8; transform: rotate(90deg);
+    }
+    #rapper .specs1 #op {
+        position: absolute; width: 161px; height: 25px; left: 255px; top: 1760px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: 600; font-size: 18px; line-height: 25px; color: #474333;
+    }
+    #rapper .specs1 #firstr {
+        position: absolute; width: 88px; height: 25px; left: 255px; top: 1833px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: 600; font-size: 18px; line-height: 25px; color: #474333;
+    }
+    #rapper .specs1 #secondr {
+        position: absolute; width: 95px; height: 25px; left: 255px; top: 2062px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: 600; font-size: 18px; line-height: 25px; color: #474333;
+    }
+    #rapper .specs1 #finalr {
+        position: absolute; width: 133px; height: 25px; left: 255px; top: 2173px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: 600; font-size: 18px; line-height: 25px; color: #474333;
+    }
+    #rapper .specs1 #fbul {
+        position: absolute; width: 14px; height: 14px; left: 213px; top: 1763px; background: #5576A8; border: 3px solid #FFFFFF; transform: rotate(-45.59deg);
+    }
+    #rapper .specs1 #sbullet {
+        position: absolute; width: 14px; height: 14px; left: 213px; top: 1836px; background: #5576A8; border: 3px solid #FFFFFF; transform: rotate(-45.59deg);
+    }
+    #rapper .specs1 #tbullet {
+        position: absolute; width: 14px; height: 14px; left: 213px; top: 2065px; background: #5576A8; border: 3px solid #FFFFFF; transform: rotate(-45.59deg);
+    }
+    #rapper .specs1 #fbullet {
+        position: absolute; width: 14px; height: 14px; left: 213px; top: 2176px; background: #5576A8; border: 3px solid #FFFFFF; transform: rotate(-45.59deg);
+    }
+    #rapper .specs1 #fmbullet {
+        position: absolute; width: 7px; height: 7px; left: 255px; top: 1872px; background: #5576A8;
+    }
+    #rapper .specs1 #smbullet {
+        position: absolute; width: 7px; height: 7px; left: 255px; top: 1971px; background: #5576A8;
+    }
+    #rapper .specs1 #tmbullet {
+        position: absolute; width: 7px; height: 7px; left: 255px; top: 2102px; background: #5576A8;
+    }
+    #rapper .specs1 #fombullet {
+        position: absolute; width: 7px; height: 7px; left: 255px; top: 2213px; background: #5576A8;
+    }
+    #rapper .specs1 #fifth-mbullet {
+        position: absolute; width: 7px; height: 7px; left: 255px; top: 2279px; background: #5576A8;
+    }
+    #rapper .specs1 #firstrd-one {
+        position: absolute; width: 479px; height: 73px; left: 272px; top: 1864px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 25px; overflow-y: hidden; color: #494949;
+    }
+    #rapper .specs1 #firstrd-two {
+        position: absolute; width: 479px; height: 73px; left: 272px; top: 1962px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 25px; color: #494949;
+    }
+    #rapper .specs1 #secrd-one {
+        position: absolute; width: 479px; height: 73px; left: 272px; top: 2093px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 25px; color: #494949;
+    }
+    #rapper .specs1 #finrd-one {
+        position: absolute; width: 479px; height: 73px; left: 272px; top: 2204px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 25px; color: #494949;
+    }
+    #rapper .specs1 #finrd-two {
+        position: absolute; width: 479px; height: 73px; left: 272px; top: 2271px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 25px; color: #494949;
+    }
+        /* Certified Programmers Section */
+        #rapper .specs2 .deco {
+            display: none;
+        }
+
+}
+
 
 
 
