@@ -388,6 +388,12 @@ html, body {
     #rapper .specs1 #finrd-two {
         position: absolute; width: 479px; height: 73px; left: 620px; top: 2271px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 25px; color: #494949;
     }
+    #rapper .sample-questions .swiper-containerdos .swiper-button-prev {
+        display:none;
+    }
+    #rapper .sample-questions .swiper-containerdos .swiper-button-next {
+        display:none;
+    }
 
 }
 /* Ipad Optimization! */
