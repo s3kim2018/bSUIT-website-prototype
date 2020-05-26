@@ -256,13 +256,14 @@ html, body {
     left: 50%; transform: translateX(-50%); top: 210px; width: 752px; height: 750px; overflow-x: hidden;
 }
 #rapper .sample-questions .swiper-containerdos .swiper-wrapper #first {
-    background: url(prob/lvl1.png); background-size: 100% 100%; 
+    background: url(prob/lvl1.png); background-size: 80% 80%; background-repeat: no-repeat;  background-position: center;
+
 }
 #rapper .sample-questions .swiper-containerdos .swiper-wrapper #second {
-    background: url(prob/lvl2.png); background-size: 100% 60%; background-repeat: no-repeat;
+    background: url(prob/lvl2.png); background-size: 80% 50%; background-repeat: no-repeat; background-position: center 80px; 
 }
 #rapper .sample-questions .swiper-containerdos .swiper-wrapper #third {
-    background: url(prob/lvl3.png); background-size: 100% 64%; background-repeat: no-repeat;
+    background: url(prob/lvl3.png); background-size: 80% 54%; background-repeat: no-repeat; background-position: center 80px;
 }
 #rapper .sample-questions #lvl1but {
     position: absolute; height: 19px; left: 40%; transform: translateX(-50%); top: 1010px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 14px; line-height: 19px;
