@@ -361,12 +361,12 @@
         position: absolute; width: 40%; height: 173px; left: 130px; top: 170px; font-family: 'Open Sans', sans-serif; font-weight: bold; font-size: 28px; line-height: 47px; color: white;
     }
     #rapper .menu #banner {
-        width: 84%;
-        height: 570px;
+        width: 88%;
+        height: 540px;
     }
     #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #regbutton {
         margin: 0; padding: 0; z-index: 1; position: absolute; width: 309px; height: 56px; left: 280px; transform: translateX(-50%);
-        top: 410px; background: #F16464; border-radius: 28px;
+        top: 360px; background: #F16464; border-radius: 28px;
     }
     #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #phonebanner {
         display: none; 
@@ -380,13 +380,27 @@
         top: 14%;
     }
     #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #page2but {
-        position: absolute; left: 63%; top: 300px; color: yellow; font-family: 'Open Sans', sans-serif; font-size: 20px; font-weight: bold; z-index: 2
+        position: absolute; left: 65%; top: 300px; color: yellow; font-family: 'Open Sans', sans-serif; font-size: 20px; font-weight: bold; z-index: 2
     }
     #rapper .menu .swiper-container .words {
         display: flex;
         position: absolute;
         padding-top: 85px;
         padding-left: 45%;
+        z-index: 2;
+    }
+    #rapper .menu .swiper-container #logo {
+        float: left;
+        max-width: 143px;
+        height: 143px;
+        margin-left: 60px;
+        margin-top: 18px
+    }
+    #rapper .menu .swiper-container .words {
+        display: flex;
+        position: absolute;
+        padding-top: 85px;
+        padding-left: 39%;
         z-index: 2;
     }
     /* Interview Assistance Section */
