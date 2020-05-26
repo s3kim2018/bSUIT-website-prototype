@@ -277,6 +277,9 @@
     #rapper {
         overflow-x: hidden;
     }
+    #rapper .menu .swiper-container .swiper-wrapper .swiper-slide .main {
+        position: absolute; width: 40%; height: 173px; left: 166px; top: 170px; font-family: 'Open Sans', sans-serif; font-weight: bold; font-size: 30px; line-height: 48px; color: white;
+    }
     /* Interview Assistance Section */
     #rapper .specs1 .deco1 {
         position: absolute; width: 400px; height: 891px; left: 0px; top: 1532px; background: #EFF6FE; border-radius: 0px 0px 500px 0px; transform: matrix(-1, 0, 0, 1, 0, 0);
