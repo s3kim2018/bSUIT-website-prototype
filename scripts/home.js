@@ -16,6 +16,7 @@ $(document).ready(function() { //wait for shizzles to
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
+        initialSlide: 1,
     });
     mySwiper2 = new Swiper ('.swiper-containerdos', {
         // Optional parameters

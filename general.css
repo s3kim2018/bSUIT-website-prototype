@@ -679,7 +679,7 @@ html, body {
     }
     #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #page2but {
         margin: 0; padding: 0;
-        position: absolute; left: 53%; transform: translateX(-50%); width: 190px; top: 450px; font-size: 17px; font-size: 16px;
+        position: absolute; left: 50%; transform: translateX(-50%); top: 450px; font-size: 17px; font-size: 18px;
     }
     /* What we do section */
     #rapper .what-we-do .rectangle-cover {
