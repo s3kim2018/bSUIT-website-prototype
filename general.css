@@ -1,7 +1,10 @@
 *{
     margin: 0; 
 }
-
+html, body {
+    margin: 0;
+    height: 100%;
+}
 
 /* MENU  */
 #rapper {
@@ -9,7 +12,7 @@
     height: 100%; width: 100%; 
 }
 #rapper .menu .swiper-container {
-    max-width: 100%;
+    width: 100%;
     height: 848px;
     margin: 0;
     overflow-x: hidden;
@@ -361,8 +364,9 @@
         position: absolute; width: 40%; height: 173px; left: 130px; top: 170px; font-family: 'Open Sans', sans-serif; font-weight: bold; font-size: 28px; line-height: 47px; color: white;
     }
     #rapper .menu #banner {
-        width: 88%;
-        height: 540px;
+        width: 84%;
+        height: 520px;
+        margin: auto;
     }
     #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #regbutton {
         margin: 0; padding: 0; z-index: 1; position: absolute; width: 309px; height: 56px; left: 280px; transform: translateX(-50%);
@@ -380,7 +384,7 @@
         top: 14%;
     }
     #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #page2but {
-        position: absolute; left: 65%; top: 300px; color: yellow; font-family: 'Open Sans', sans-serif; font-size: 20px; font-weight: bold; z-index: 2
+        position: absolute; left: 63%; top: 300px; color: yellow; font-family: 'Open Sans', sans-serif; font-size: 20px; font-weight: bold; z-index: 2
     }
     #rapper .menu .swiper-container .words {
         display: flex;
@@ -404,6 +408,10 @@
         z-index: 2;
     }
     /* Interview Assistance Section */
+    body {
+        width: 100%;
+        height: 100%;
+    }
     #rapper .specs1 .deco1 {
         display: none; 
     } 
