@@ -81,6 +81,7 @@ $(document).ready(function() { //wait for shizzles to
         }
     });
     mySwiper2.on('slideChange', function () {
+        var x = window.matchMedia("(max-width: 600px)")
         if (mySwiper2.activeIndex == 0) {
             if (current == 2) {
                 $('.sample-questions #lvl2but').removeClass('selected');
@@ -88,11 +89,20 @@ $(document).ready(function() { //wait for shizzles to
                 $('.sample-questions #lvl3but').removeClass('selected');
             }
             $('.sample-questions #lvl1but').addClass('selected');
-            $('.sample-questions #uiline').css({
-                left: '40%',
-                transform: 'translateX(-50%)'
-            });
-            current = 1;
+            if (x.matches) {
+                $('.sample-questions #uiline').css({
+                    left: '35%',
+                    transform: 'translateX(-50%)'
+                });
+                current = 1;
+            } else {
+                $('.sample-questions #uiline').css({
+                    left: '40%',
+                    transform: 'translateX(-50%)'
+                });
+
+            }
+
         } else if (mySwiper2.activeIndex == 1) {
             if (current == 1) {
                 $('.sample-questions #lvl1but').removeClass('selected');
@@ -100,11 +110,19 @@ $(document).ready(function() { //wait for shizzles to
                 $('.sample-questions #lvl3but').removeClass('selected');
             }
             $('.sample-questions #lvl2but').addClass('selected');
-            $('.sample-questions #uiline').css({
-                left: '50%',
-                transform: 'translateX(-50%)'
-            });
-            current = 2;
+            if (x.matches) {
+                $('.sample-questions #uiline').css({
+                    left: '50%',
+                    transform: 'translateX(-50%)'
+                });
+                current = 2;
+            } else {
+                $('.sample-questions #uiline').css({
+                    left: '50%',
+                    transform: 'translateX(-50%)'
+                });
+                current = 2;
+            }
         } else if (mySwiper2.activeIndex == 2) {
             if (current == 1) {
                 $('.sample-questions #lvl1but').removeClass('selected');
@@ -112,11 +130,19 @@ $(document).ready(function() { //wait for shizzles to
                 $('.sample-questions #lvl2but').removeClass('selected');
             }
             $('.sample-questions #lvl3but').addClass('selected');
-            $('.sample-questions #uiline').css({
-                left: '60%',
-                transform: 'translateX(-50%)'
-            });
-            current = 3;
+            if (x.matches) {
+                $('.sample-questions #uiline').css({
+                    left: '65%',
+                    transform: 'translateX(-50%)'
+                });
+                current = 3;
+            } else  {
+                $('.sample-questions #uiline').css({
+                    left: '60%',
+                    transform: 'translateX(-50%)'
+                });
+                current = 3;
+            }
         }
     });
 

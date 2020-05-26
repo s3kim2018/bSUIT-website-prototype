@@ -6,7 +6,6 @@
 /* MENU  */
 #rapper .menu .swiper-container {
     max-width: 100%;
-    min-width: 1440px;
     height: 848px;
     margin: 0;
     overflow-x: hidden;
@@ -74,7 +73,7 @@
     cursor: pointer; 
 }
 #rapper .menu #banner {
-    max-width: 1200px;
+    width: 84%;
     height: 630px;
 }
 #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #phonebanner {
@@ -83,20 +82,20 @@
 #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #mac {
     position: absolute;
     z-index: 0;
-    max-width: 600px;
-    height: 300px;
+    width: 34%;
+    height: 34%;
     left: 820px;
     top: 100px;
 
 }
 #rapper .menu .swiper-container .swiper-wrapper .swiper-slide .main {
-    position: absolute; width: 556px; height: 173px; left: 166px; top: 170px; font-family: 'Open Sans', sans-serif; font-weight: bold; font-size: 38px; line-height: 52px; color: white;
+    position: absolute; width: 40%; height: 173px; left: 166px; top: 170px; font-family: 'Open Sans', sans-serif; font-weight: bold; font-size: 38px; line-height: 52px; color: white;
 }
 #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #regbutton {
     margin: 0; padding: 0; z-index: 1; position: absolute; width: 309px; height: 56px; left: 166px; top: 377px; background: #F16464; border-radius: 28px;
 }
 #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #page2but {
-    position: absolute; left: 900px; top: 358px; color: yellow; font-family: 'Open Sans', sans-serif; font-size: 20px; font-weight: bold; z-index: 2
+    position: absolute; left: 63%; top: 358px; color: yellow; font-family: 'Open Sans', sans-serif; font-size: 20px; font-weight: bold; z-index: 2
 }
 
 /* What we do section */
@@ -248,30 +247,28 @@
 #rapper .sample-questions .swiper-containerdos {
     margin: 0; background-color: white;
     padding: 0; position: relative;
-    left: 50%; transform: translateX(-50%); top: 150px; width: 752px; height: 750px; overflow-x: hidden;
+    left: 50%; transform: translateX(-50%); top: 210px; width: 752px; height: 750px; overflow-x: hidden;
 }
 #rapper .sample-questions .swiper-containerdos .swiper-wrapper #first {
-    width: 752px; height: 750px; 
+    background: url(prob/lvl1.png); background-size: 100% 100%; 
 }
-#rapper .sample-questions .swiper-containerdos .swiper-wrapper .swiper-slide #secondq {
-    width: 752px; height: 560px; padding-top: 10px;
+#rapper .sample-questions .swiper-containerdos .swiper-wrapper #second {
+    background: url(prob/lvl2.png); background-size: 100% 60%; background-repeat: no-repeat;
 }
-#rapper .sample-questions .swiper-containerdos .swiper-wrapper .swiper-slide #thirdq {
-    width: 752px; height: 580px; 
+#rapper .sample-questions .swiper-containerdos .swiper-wrapper #third {
+    background: url(prob/lvl3.png); background-size: 100% 64%; background-repeat: no-repeat;
 }
-
-
 #rapper .sample-questions #lvl1but {
-    position: absolute; height: 19px; left: 40%; transform: translateX(-50%); top: 950px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 14px; line-height: 19px;
+    position: absolute; height: 19px; left: 40%; transform: translateX(-50%); top: 1010px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 14px; line-height: 19px;
 }
 #rapper .sample-questions #lvl2but {
-    position: absolute; left: 50%; top: 950px; transform: translateX(-50%); font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 14px; line-height: 20px;
+    position: absolute; left: 50%; top: 1010px; transform: translateX(-50%); font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 14px; line-height: 20px;
 }
 #rapper .sample-questions #lvl3but {
-    position: absolute; height: 19px; left: 60%; transform: translateX(-50%); top: 950px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 14px; line-height: 19px;
+    position: absolute; height: 19px; left: 60%; transform: translateX(-50%); top: 1010px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 14px; line-height: 19px;
 }
 #rapper .sample-questions #uiline {
-    position: absolute; left: 40%; transform: translateX(-50%); width: 34px; height: 0px; top: 970px; border: 1px solid #FFFFFF;
+    position: absolute; left: 40%; transform: translateX(-50%); width: 34px; height: 0px; top: 1030px; border: 1px solid #FFFFFF;
 }
 
 /* Menu Media Query (Large Phones) */
@@ -564,29 +561,38 @@
         position: absolute; width: 300px; height: 44px; left: 10%; top: 3247px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 14px; line-height: 19px; color: #333333;
     }
     /* Samples Section */
-    #rapper .sample-questions #back {
-        position: absolute; order: 0; width: 100%; height: 1118px; left: 0px; top: 3536px; background: rgba(30, 47, 79, 0.8)
+    #rapper .sample-questions {
+        background-image: url("img/samplebackground.png");
+        position: absolute; width: 100%; height: 1118px; left: 0px; top: 3536px;
     }
     #rapper .sample-questions #title {
-        position: absolute; width: 236px; height: 49px; left: 50%; transform: translateX(-50%); top: 3612px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 26px; line-height: 49px; color: #FFFFFF;
+        position: absolute; width: 324px; height: 49px; left: 50%; transform: translateX(-50%); top: 80px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 36px; line-height: 49px; color: #FFFFFF;
     }
-    #rapper .sample-questions #problem {
-        position: absolute; width: auto; height: 750px; left: 0px; top: 3735px; order: 3; background: white;
+    #rapper .sample-questions .swiper-containerdos {
+        margin: 0; background-color: white;
+        padding: 0; position: relative;
+        left: 50%; transform: translateX(-50%); top: 210px; width: 100%; height: 750px; overflow-x: hidden;
     }
-    #rapper .sample-questions #thepimg {
-        position: absolute; width: 100%; height: 720px; left: 0px; top: 3751px;
+    #rapper .sample-questions .swiper-containerdos .swiper-wrapper #first {
+        background: url(prob/lvl1.png); background-size: 100% 80%; 
+    }
+    #rapper .sample-questions .swiper-containerdos .swiper-wrapper #second {
+        background: url(prob/lvl2.png); background-size: 100% 50%; background-repeat: no-repeat;
+    }
+    #rapper .sample-questions .swiper-containerdos .swiper-wrapper #third {
+        background: url(prob/lvl3.png); background-size: 100% 54%; background-repeat: no-repeat;
     }
     #rapper .sample-questions #lvl1but {
-        position: absolute; width: 65px; height: 19px; left: 593px; top: 4510px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 14px; line-height: 19px;
+        position: absolute; height: 19px; left: 35%; transform: translateX(-50%); top: 1010px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 11px; line-height: 19px;
     }
     #rapper .sample-questions #lvl2but {
-        position: absolute; left: 696px; top: 4510px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 14px; line-height: 20px;
+        position: absolute; left: 50%; top: 1010px; transform: translateX(-50%); font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 11px; line-height: 20px;
     }
     #rapper .sample-questions #lvl3but {
-        position: absolute; width: 65px; height: 19px; left: 799px; top: 4510px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 14px; line-height: 19px;
+        position: absolute; height: 19px; left: 65%; transform: translateX(-50%); top: 1010px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 11px; line-height: 19px;
     }
     #rapper .sample-questions #uiline {
-        display: none; 
+        position: absolute; left: 35%; transform: translateX(-50%); width: 34px; height: 0px; top: 1030px; border: 1px solid #FFFFFF;
     }
 }
 
