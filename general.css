@@ -80,6 +80,8 @@ html, body {
     cursor: pointer; 
 }
 #rapper .menu #banner {
+    margin: auto;
+    display: block;
     width: 84%;
     height: 73%;
 }
@@ -101,7 +103,8 @@ html, body {
     margin: 0; padding: 0; z-index: 1; position: absolute; width: 309px; height: 56px; left: 166px; top: 377px; background: #F16464; border-radius: 28px;
 }
 #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #page2but {
-    position: absolute; left: 63%; top: 358px; color: yellow; font-family: 'Open Sans', sans-serif; font-size: 20px; font-weight: bold; z-index: 2
+    position: absolute; left: 72.5%; top: 380px; color: yellow; font-family: 'Open Sans', sans-serif; font-size: 20px; font-weight: bold; z-index: 2; transform: translateX(-50%);
+
 }
 
 /* What we do section */
@@ -257,7 +260,6 @@ html, body {
 }
 #rapper .sample-questions .swiper-containerdos .swiper-wrapper #first {
     background: url(prob/lvl1.png); background-size: 80% 80%; background-repeat: no-repeat;  background-position: center;
-
 }
 #rapper .sample-questions .swiper-containerdos .swiper-wrapper #second {
     background: url(prob/lvl2.png); background-size: 80% 50%; background-repeat: no-repeat; background-position: center 80px; 
@@ -389,7 +391,7 @@ html, body {
         top: 14%;
     }
     #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #page2but {
-        position: absolute; left: 57.5%; top: 290px; color: yellow; font-family: 'Open Sans', sans-serif; font-size: 20px; font-weight: bold; z-index: 2
+        position: absolute; left: 72.5%; transform: translateX(-50%); top: 290px; color: yellow; font-family: 'Open Sans', sans-serif; font-size: 20px; font-weight: bold; z-index: 2
     }
     #rapper .menu .swiper-container .words {
         display: flex;
@@ -486,6 +488,12 @@ html, body {
         /* Certified Programmers Section */
         #rapper .specs2 .deco {
             display: none;    
+    }
+    #rapper .specs2 #title {
+        position: absolute; width: 343px; height: 41px; left: 50%; transform: translateX(-50%); top: 2643px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 30px; line-height: 41px; color: #535353;
+    }
+    #rapper .specs2 #stitle {
+        position: absolute; width: 170px; height: 30px; left: 65%; transform: translateX(-50%); top: 2684px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: normal; font-size: 22px; line-height: 30px; color: #5576A8;
     }
 }
 /* Menu Media Query (Large Phones) */
