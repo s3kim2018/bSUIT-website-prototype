@@ -365,7 +365,7 @@ html, body {
     }
     #rapper .menu #banner {
         width: 84%;
-        height: 520px;
+        height: 460px;
         margin: auto;
     }
     #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #regbutton {
@@ -384,7 +384,7 @@ html, body {
         top: 14%;
     }
     #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #page2but {
-        position: absolute; left: 63%; top: 300px; color: yellow; font-family: 'Open Sans', sans-serif; font-size: 20px; font-weight: bold; z-index: 2
+        position: absolute; left: 63%; top: 260px; color: yellow; font-family: 'Open Sans', sans-serif; font-size: 20px; font-weight: bold; z-index: 2
     }
     #rapper .menu .swiper-container .words {
         display: flex;
