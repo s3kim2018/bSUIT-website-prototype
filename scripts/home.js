@@ -1,21 +1,35 @@
 
 $(document).ready(function () {
-    //initialize swiper when document ready
-    var mySwiper = new Swiper ('.swiper-container', {
-      // Optional parameters
-      direction: 'horizontal',
-      loop: true,
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    })
+
   });
 
 /* Sample Questions Section */
-$(document).ready(function() { //wait for shizzles to load
+$(document).ready(function() { //wait for shizzles to 
+    let mySwiper1; let mySwiper2;
     let current = 1;  
-    /* Hover Properties */
+    //initialize swiper when document ready
+    mySwiper1 = new Swiper ('.swiper-container', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+    mySwiper2 = new Swiper ('.swiper-containerdos', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: false,
+        watchOverflow: true,
+        slidesPerView: 1,
+        preloadImages: false,
+        initialSlide: 0,
+        navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+        }
+    });
 
     /* Click Listeners */
     $('.sample-questions #lvl1but').on('click', function() {
@@ -27,14 +41,11 @@ $(document).ready(function() { //wait for shizzles to load
                 $('.sample-questions #lvl3but').removeClass('selected');
             }
             $('.sample-questions #uiline').css({
-                left: '598px',
+                left: '40%',
+                transform: 'translateX(-50%)'
             });
-            $('.sample-questions #thepimg').attr('src', 'prob/lvl1.png');
+            mySwiper2.slideTo(0, 100);
             current = 1; 
-            $('.sample-questions #thepimg').css({
-                height: '720px',
-                width: '700px'
-            });
         }
     });
     $('.sample-questions #lvl2but').on('click', function() {
@@ -46,14 +57,10 @@ $(document).ready(function() { //wait for shizzles to load
                 $('.sample-questions #lvl3but').removeClass('selected');
             }
             $('.sample-questions #uiline').css({
-                left: '702px',
+                left: '50%',
+                transform: 'translateX(-50%)'
             });
-            $('.sample-questions #thepimg').attr('src', 'prob/lvl2.png');
-            $('.sample-questions #thepimg').css({
-                height: '450px',
-                width: '700px'
-            });
-
+            mySwiper2.slideTo(1, 100);
             current = 2; 
         }
     });
@@ -66,16 +73,53 @@ $(document).ready(function() { //wait for shizzles to load
                 $('.sample-questions #lvl2but').removeClass('selected');
             }
             $('.sample-questions #uiline').css({
-                left: '804px',
+                left: '60%',
+                transform: 'translateX(-50%)'
             });
-            $('.sample-questions #thepimg').attr('src', 'prob/lvl3.png');
-            $('.sample-questions #thepimg').css({
-                height: '470px',
-                width: '680px'
-            });
+            mySwiper2.slideTo(2, 100);
             current = 3; 
         }
     });
+    mySwiper2.on('slideChange', function () {
+        if (mySwiper2.activeIndex == 0) {
+            if (current == 2) {
+                $('.sample-questions #lvl2but').removeClass('selected');
+            } else if (current == 3) {
+                $('.sample-questions #lvl3but').removeClass('selected');
+            }
+            $('.sample-questions #lvl1but').addClass('selected');
+            $('.sample-questions #uiline').css({
+                left: '40%',
+                transform: 'translateX(-50%)'
+            });
+            current = 1;
+        } else if (mySwiper2.activeIndex == 1) {
+            if (current == 1) {
+                $('.sample-questions #lvl1but').removeClass('selected');
+            } else if (current == 3) {
+                $('.sample-questions #lvl3but').removeClass('selected');
+            }
+            $('.sample-questions #lvl2but').addClass('selected');
+            $('.sample-questions #uiline').css({
+                left: '50%',
+                transform: 'translateX(-50%)'
+            });
+            current = 2;
+        } else if (mySwiper2.activeIndex == 2) {
+            if (current == 1) {
+                $('.sample-questions #lvl1but').removeClass('selected');
+            } else if (current == 2) {
+                $('.sample-questions #lvl2but').removeClass('selected');
+            }
+            $('.sample-questions #lvl3but').addClass('selected');
+            $('.sample-questions #uiline').css({
+                left: '60%',
+                transform: 'translateX(-50%)'
+            });
+            current = 3;
+        }
+    });
+
 
 });
 

@@ -5,9 +5,11 @@
 
 /* MENU  */
 #rapper .menu .swiper-container {
-    width: 100%;
+    max-width: 100%;
+    min-width: 1440px;
     height: 848px;
     margin: 0;
+    overflow-x: hidden;
     padding: 0;
 }
 #rapper .menu .swiper-container #logo {
@@ -21,7 +23,7 @@
     display: flex;
     position: absolute;
     padding-top: 85px;
-    padding-left: 800px;
+    padding-left: 55%;
     z-index: 2;
 }
 #rapper .menu .swiper-container .words #uno {
@@ -236,29 +238,40 @@
     position: absolute; width: 480px; height: 44px; left: 212px; top: 3247px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 16px; line-height: 22px; color: #333333;
 }
 /* Samples Section */
-#rapper .sample-questions #back {
-    position: absolute; order: 0; width: 100%; height: 1118px; left: 0px; top: 3536px; background: rgba(30, 47, 79, 0.8)
+#rapper .sample-questions {
+    background-image: url("img/samplebackground.png");
+    position: absolute; width: 100%; height: 1118px; left: 0px; top: 3536px;
 }
 #rapper .sample-questions #title {
-    position: absolute; width: 324px; height: 49px; left: 558px; top: 3612px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 36px; line-height: 49px; color: #FFFFFF;
+    position: absolute; width: 324px; height: 49px; left: 50%; transform: translateX(-50%); top: 80px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 36px; line-height: 49px; color: #FFFFFF;
 }
-#rapper .sample-questions #problem {
-    position: absolute; width: 752px; height: 750px; left: 344px; top: 3735px; order: 3; background: white;
+#rapper .sample-questions .swiper-containerdos {
+    margin: 0; background-color: white;
+    padding: 0; position: relative;
+    left: 50%; transform: translateX(-50%); top: 150px; width: 752px; height: 750px; overflow-x: hidden;
 }
-#rapper .sample-questions #thepimg {
-    position: absolute; width: 752px; height: 720px; left: 344px; top: 3751px;
+#rapper .sample-questions .swiper-containerdos .swiper-wrapper #first {
+    width: 752px; height: 750px; 
 }
+#rapper .sample-questions .swiper-containerdos .swiper-wrapper .swiper-slide #secondq {
+    width: 752px; height: 560px; padding-top: 10px;
+}
+#rapper .sample-questions .swiper-containerdos .swiper-wrapper .swiper-slide #thirdq {
+    width: 752px; height: 580px; 
+}
+
+
 #rapper .sample-questions #lvl1but {
-    position: absolute; width: 65px; height: 19px; left: 593px; top: 4510px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 14px; line-height: 19px;
+    position: absolute; height: 19px; left: 40%; transform: translateX(-50%); top: 950px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 14px; line-height: 19px;
 }
 #rapper .sample-questions #lvl2but {
-    position: absolute; left: 696px; top: 4510px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 14px; line-height: 20px;
+    position: absolute; left: 50%; top: 950px; transform: translateX(-50%); font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 14px; line-height: 20px;
 }
 #rapper .sample-questions #lvl3but {
-    position: absolute; width: 65px; height: 19px; left: 799px; top: 4510px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 14px; line-height: 19px;
+    position: absolute; height: 19px; left: 60%; transform: translateX(-50%); top: 950px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 14px; line-height: 19px;
 }
 #rapper .sample-questions #uiline {
-    position: absolute; width: 34px; height: 0px; top: 4532px; border: 1px solid #FFFFFF;
+    position: absolute; left: 40%; transform: translateX(-50%); width: 34px; height: 0px; top: 970px; border: 1px solid #FFFFFF;
 }
 
 /* Menu Media Query (Large Phones) */
@@ -431,10 +444,10 @@
         display: none;
     } 
     #rapper .specs1 #interviewassist {
-        position: absolute; height: 41px; left: 50%; transform: translateX(-50%); top: 1620px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 26px; line-height: 41px; color: #484848;
+        position: absolute; height: 41px; width: 259px; left: 50%; transform: translateX(-50%); top: 1620px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 26px; line-height: 41px; color: #484848;
     }
     #rapper .specs1 #ffirms {
-        position: absolute; width: 150px; height: 30px; left: 50%; transform: translateX(-20%); top: 1661px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: normal; font-size: 22px; line-height: 30px; color: #5576A8;
+        position: absolute; width: 150px; height: 30px; left: 50%; top: 1661px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: normal; font-size: 20px; line-height: 30px; color: #5576A8;
     }
     #rapper .specs1 #tbar {
         position: absolute; width: 618px; height: 0px; left: 392px; margin-left: -640px; top: 2050px; border: 2px solid #5576A8; transform: rotate(90deg)
@@ -498,10 +511,10 @@
         display: none;
     }
     #rapper .specs2 #title {
-        position: absolute; height: 40px; left: 50%; transform: translateX(-50%); top: 2643px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 26px; line-height: 41px; color: #535353;
+        position: absolute; height: 40px; width: 287px; left: 50%; transform: translateX(-50%); top: 2643px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 26px; line-height: 41px; color: #535353;
     }
     #rapper .specs2 #stitle {
-        position: absolute; width: 170px; height: 30px; left: 50%; transform: translateX(-20%); top: 2684px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: normal; font-size: 22px; line-height: 30px; color: #5576A8;
+        position: absolute; width: 170px; height: 30px; left: 50%; transform: translateX(-10%); top: 2684px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: normal; font-size: 20px; line-height: 30px; color: #5576A8;
     }
     #rapper .specs2 #lvlone {
         position: absolute; width: 63px; height: 25px; left: 10%; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 16px; line-height: 25px; color: #DCBA42;
@@ -555,7 +568,7 @@
         position: absolute; order: 0; width: 100%; height: 1118px; left: 0px; top: 3536px; background: rgba(30, 47, 79, 0.8)
     }
     #rapper .sample-questions #title {
-        position: absolute; width: 324px; height: 49px; left: 50%; transform: translateX(-50%); top: 3612px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 26px; line-height: 49px; color: #FFFFFF;
+        position: absolute; width: 236px; height: 49px; left: 50%; transform: translateX(-50%); top: 3612px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 26px; line-height: 49px; color: #FFFFFF;
     }
     #rapper .sample-questions #problem {
         position: absolute; width: auto; height: 750px; left: 0px; top: 3735px; order: 3; background: white;
