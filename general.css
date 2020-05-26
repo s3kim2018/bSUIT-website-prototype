@@ -6,6 +6,7 @@
 /* MENU  */
 #rapper {
     overflow-x: hidden;
+    height: 100%;
 }
 #rapper .menu .swiper-container {
     max-width: 100%;
@@ -85,9 +86,9 @@
 #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #mac {
     position: absolute;
     z-index: 0;
-    width: 34%;
-    height: 34%;
-    left: 58%;
+    width: 37%;
+    height: 42%;
+    left: 53%;
     top: 100px;
 }
 #rapper .menu .swiper-container .swiper-wrapper .swiper-slide .main {
