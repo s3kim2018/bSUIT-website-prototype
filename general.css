@@ -430,7 +430,7 @@ html, body {
         top: 14%;
     }
     #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #page2but {
-        position: absolute; left: 72.5%; transform: translateX(-50%); top: 290px; color: yellow; font-family: 'Open Sans', sans-serif; font-size: 20px; font-weight: bold; z-index: 2
+        position: absolute; left: 72.5%; transform: translateX(-50%); top: 290px; color: yellow; font-family: 'Open Sans', sans-serif; font-size: 18px; font-weight: normal; z-index: 2
     }
     #rapper .menu .swiper-container .words {
         display: flex;
