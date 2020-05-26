@@ -362,16 +362,20 @@ html, body {
     }
     /* Menu */
     #rapper .menu .swiper-container .swiper-wrapper .swiper-slide .main {
-        position: absolute; width: 40%; height: 173px; left: 130px; top: 170px; font-family: 'Open Sans', sans-serif; font-weight: bold; font-size: 28px; line-height: 47px; color: white;
+        position: absolute; width: 40%; height: 173px; left: 80px; top: 170px; font-family: 'Open Sans', sans-serif; font-weight: bold; font-size: 21px; line-height: 40px; color: white;
     }
     #rapper .menu #banner {
         width: 84%;
-        height: 460px;
-        margin: auto;
+        height: 400px;
+        position: absolute;
+        top: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: block; margin: auto;
     }
     #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #regbutton {
-        margin: 0; padding: 0; z-index: 1; position: absolute; width: 309px; height: 56px; left: 280px; transform: translateX(-50%);
-        top: 360px; background: #F16464; border-radius: 28px;
+        margin: 0; padding: 0; z-index: 1; position: absolute; width: 309px; height: 56px; left: 210px; transform: translateX(-50%);
+        top: 340px; background: #F16464; border-radius: 28px;
     }
     #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #phonebanner {
         display: none; 
@@ -379,13 +383,13 @@ html, body {
     #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #mac {
         position: absolute;
         z-index: 0;
-        width: 36%;
-        height: 30%;
-        left: 55%;
+        width: 43%;
+        height: 27%;
+        left: 51%;
         top: 14%;
     }
     #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #page2but {
-        position: absolute; left: 63%; top: 260px; color: yellow; font-family: 'Open Sans', sans-serif; font-size: 20px; font-weight: bold; z-index: 2
+        position: absolute; left: 57.5%; top: 290px; color: yellow; font-family: 'Open Sans', sans-serif; font-size: 20px; font-weight: bold; z-index: 2
     }
     #rapper .menu .swiper-container .words {
         display: flex;
