@@ -1,0 +1,166 @@
+* {
+    margin: 0; 
+    padding: 0;
+};
+html, body {
+    margin: 0;
+    height: 100%;
+}
+/* Header portion */
+.rapper .head {
+    width: 100%; 
+    height: 50px;
+    background-color: #FFFAFA;
+    display: flex;
+    padding-left: 30px;
+}
+.rapper .head h3 {
+    font-family: Arial, Helvetica, sans-serif; 
+    padding: 15px 0; 
+}
+.rapper .head .menu {
+    display: flex;   
+    padding: 18px 0; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;  
+}
+
+/* Main Portion */
+.rapper .main {
+    width: 100%; 
+    height: 700px;
+    background-image: url('img/compbanner.jpg');
+    background-size: cover;
+}
+
+.rapper .main p {
+    color: white; 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    line-height: 45px;   
+}
+.rapper .main #text {
+    position: absolute; 
+    top: 50%;
+    font-weight: bold;
+    transform: translateY(-50%);
+    left: 10%;
+}
+.rapper .main img {
+    position: absolute; 
+    left: 56%;
+    top: 48%;
+    width: 33%;
+    height: 63%;
+    transform: translateY(-50%);
+
+}
+/* Dates portion */
+.rapper .dates {
+    width: 100%;
+    height: 400px;
+}
+.rapper .dates h2 {
+    font-family: Arial, Helvetica, sans-serif; 
+    position: absolute;
+    margin-top: 60px;
+    left: 50%; 
+    transform: translateX(-50%);
+    color: black; 
+}
+.rapper .dates .datesr {
+    display: flex; 
+    justify-content: center;
+}
+.rapper .dates .datesr .elem {
+    background-color: white;
+    margin-top: 150px;
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 40px;
+    border: silver solid 1px; 
+    border-radius: 7%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.rapper .dates .datesr .elem:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.rapper .dates .datesr .elem h3 {
+    font-size: 22px;
+}
+.rapper .dates .datesr .elem p {
+    font-size: 17px;
+}
+.rapper .dates .datesr #dos {
+    margin-top: 150px;
+    padding-top: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 40px;
+    border: silver solid 1px; 
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+/* About portion */
+.rapper .about {
+    width: 100%;
+    height: 900px;
+    background-color: #FBFCFC;
+}
+.rapper .about .uno .together {
+    width: 55%;
+}
+
+.rapper .about .uno {
+    padding-top: 3%;
+    margin-left: 16%;
+    display: flex; 
+    justify-content: left;
+}
+.rapper .about .uno img {
+    padding-left: 20px;
+    width: 20%;
+    height: 28%; 
+}
+.rapper .about .uno h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 6%;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.rapper .about .uno p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.rapper .about .dos {
+    padding-top: 3%;
+    margin-left: 16%;
+    display: flex; 
+    justify-content: left;
+}
+.rapper .about .dos .together {
+    width: 55%;
+    padding-left: 20px;
+}
+.rapper .about .dos h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+
+}
+.rapper .about .dos p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rapper .about .dos img {
+    width: 20%;
+    height: 28%; 
+}
