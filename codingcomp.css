@@ -61,13 +61,13 @@ html, body {
     font-weight: bold;
     top: 55%;
     transform: translateY(-50%);
-    left: 15%;
+    left: 12%;
 }
 .rapper .main img {
     position: absolute; 
     width: 400px;
     height: 450px;
-    left: 61%;
+    left: 59%;
     top: 55%;
     transform: translateY(-50%);
 }
