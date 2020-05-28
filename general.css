@@ -126,7 +126,7 @@ html, body {
     position: absolute; width: 515px; height: 891px; left: 0px; top: 1532px; background: #EFF6FE; border-radius: 0px 0px 500px 0px; transform: matrix(-1, 0, 0, 1, 0, 0);
 } 
 #rapper .specs1 #interviewassist {
-    position: absolute; width: 311px; height: 41px; left: 695px; top: 1620px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 30px; line-height: 41px; color: #484848;
+    position: absolute; height: 41px; left: 695px; top: 1620px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 30px; line-height: 41px; color: #484848;
 }
 #rapper .specs1 #ffirms {
     position: absolute; width: 150px; height: 30px; left: 961px; top: 1661px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: normal; font-size: 22px; line-height: 30px; color: #5576A8;
@@ -306,6 +306,163 @@ html, body {
     cursor: pointer; 
 }
 
+@media only screen and (min-width: 1920px) {
+    #rapper .menu #banner {
+        margin: auto;
+        display: block;
+        top: 0;
+        width: 80%;
+        height: 80%;
+    }
+    #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #page2but {
+        position: absolute; left: 71%; top: 420px; color: yellow; font-family: 'Open Sans', sans-serif; font-size: 20px; font-weight: bold; z-index: 2; transform: translateX(-50%);
+    
+    }
+    #rapper .menu .swiper-container .swiper-wrapper .swiper-slide .main {
+        position: absolute; width: 40%; height: 233px; left: 230px; top: 170px; font-family: 'Open Sans', sans-serif; font-weight: bold; font-size: 45px; line-height: 52px; color: white;
+    }
+    #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #mac {
+        position: absolute;
+        z-index: 0;
+        width: 44%;
+        height: 370px;
+        left: 54%;
+        top: 100px;
+    }
+    /* Interview Assistance Section */
+    #rapper .specs1 .deco1 {
+        position: absolute; width: 515px; height: 891px; left: 0px; top: 1532px; background: #EFF6FE; border-radius: 0px 0px 500px 0px; transform: matrix(-1, 0, 0, 1, 0, 0);
+    } 
+    #rapper .specs1 #interviewassist {
+        position: absolute; height: 41px; left: 995px; top: 1620px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 30px; line-height: 41px; color: #484848;
+    }
+    #rapper .specs1 #ffirms {
+        position: absolute; width: 150px; height: 30px; left: 1230px; top: 1661px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: normal; font-size: 22px; line-height: 30px; color: #5576A8;
+    }
+    #rapper .specs1 #tbar {
+        position: absolute; width: 618px; height: 0px; left: 692px; top: 2050px; border: 2px solid #5576A8; transform: rotate(90deg);
+    }
+    #rapper .specs1 #op {
+        position: absolute; width: 161px; height: 25px; left: 1055px; top: 1760px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: 600; font-size: 18px; line-height: 25px; color: #474333;
+    }
+    #rapper .specs1 #firstr {
+        position: absolute; width: 88px; height: 25px; left: 1055px; top: 1833px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: 600; font-size: 18px; line-height: 25px; color: #474333;
+    }
+    #rapper .specs1 #secondr {
+        position: absolute; width: 95px; height: 25px; left: 1055px; top: 2062px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: 600; font-size: 18px; line-height: 25px; color: #474333;
+    }
+    #rapper .specs1 #finalr {
+        position: absolute; width: 133px; height: 25px; left: 1055px; top: 2173px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: 600; font-size: 18px; line-height: 25px; color: #474333;
+    }
+    #rapper .specs1 #fbul {
+        position: absolute; width: 14px; height: 14px; left: 993px; top: 1763px; background: #5576A8; border: 3px solid #FFFFFF; transform: rotate(-45.59deg);
+    }
+    #rapper .specs1 #sbullet {
+        position: absolute; width: 14px; height: 14px; left: 993px; top: 1836px; background: #5576A8; border: 3px solid #FFFFFF; transform: rotate(-45.59deg);
+    }
+    #rapper .specs1 #tbullet {
+        position: absolute; width: 14px; height: 14px; left: 993px; top: 2065px; background: #5576A8; border: 3px solid #FFFFFF; transform: rotate(-45.59deg);
+    }
+    #rapper .specs1 #fbullet {
+        position: absolute; width: 14px; height: 14px; left: 993px; top: 2176px; background: #5576A8; border: 3px solid #FFFFFF; transform: rotate(-45.59deg);
+    }
+    #rapper .specs1 #fmbullet {
+        position: absolute; width: 7px; height: 7px; left: 1055px; top: 1872px; background: #5576A8;
+    }
+    #rapper .specs1 #smbullet {
+        position: absolute; width: 7px; height: 7px; left: 1055px; top: 1971px; background: #5576A8;
+    }
+    #rapper .specs1 #tmbullet {
+        position: absolute; width: 7px; height: 7px; left: 1055px; top: 2102px; background: #5576A8;
+    }
+    #rapper .specs1 #fombullet {
+        position: absolute; width: 7px; height: 7px; left: 1055px; top: 2213px; background: #5576A8;
+    }
+    #rapper .specs1 #fifth-mbullet {
+        position: absolute; width: 7px; height: 7px; left: 1055px; top: 2279px; background: #5576A8;
+    }
+    #rapper .specs1 #firstrd-one {
+        position: absolute; width: 479px; height: 73px; left: 1083px; top: 1864px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 25px; overflow-y: hidden; color: #494949;
+    }
+    #rapper .specs1 #firstrd-two {
+        position: absolute; width: 479px; height: 73px; left: 1083px; top: 1962px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 25px; color: #494949;
+    }
+    #rapper .specs1 #secrd-one {
+        position: absolute; width: 479px; height: 73px; left: 1083px; top: 2093px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 25px; color: #494949;
+    }
+    #rapper .specs1 #finrd-one {
+        position: absolute; width: 479px; height: 73px; left: 1083px; top: 2204px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 25px; color: #494949;
+    }
+    #rapper .specs1 #finrd-two {
+        position: absolute; width: 479px; height: 73px; left: 1083px; top: 2271px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 25px; color: #494949;
+    }
+    /* Certified Programmers Section */
+    #rapper .specs2 .deco {
+        position: absolute; width: 517px; height: 891px; left: 923px; top: 2509px; background: #EFF6FE; border-radius: 0px 0px 500px 0px;
+    }
+    #rapper .specs2 #title {
+        position: absolute; width: 343px; height: 41px; left: 512px; top: 2643px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 30px; line-height: 41px; color: #535353;
+    }
+    #rapper .specs2 #stitle {
+        position: absolute; width: 170px; height: 30px; left: 732px; top: 2684px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: normal; font-size: 22px; line-height: 30px; color: #5576A8;
+    }
+    #rapper .specs2 #lvlone {
+        position: absolute; width: 63px; height: 25px; left: 512px; top: 2789px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 18px; line-height: 25px; color: #DCBA42;
+    }
+    #rapper .specs2 #interns {
+        position: absolute; width: 70px; height: 19px; left: 648px; top: 2792px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: 600; font-size: 14px; line-height: 19px; color: rgba(51, 51, 51, 0.6);
+    }
+    #rapper .specs2 #divone {
+        position: absolute; width: 497px; height: 0px; left: 512px; top: 2824px; border: 1px solid rgba(55, 55, 55, 0.3);
+        
+    }
+    #rapper .specs2 #lvlonetitle {
+        position: absolute; width: 140px; height: 30px; left: 512px; top: 2834px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: 600; font-size: 22px; line-height: 30px; color: #333333;
+    }
+    #rapper .specs2 #lvlonemain {
+        position: absolute; width: 227px; height: 44px; left: 512px; top: 2871px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 16px; line-height: 22px; color: #333333;
+    }
+    #rapper .specs2 #lvltwo {
+        position: absolute; width: 63px; height: 25px; left: 512px; top: 2956px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 18px; line-height: 25px; color: #DCBA42;
+    }
+    #rapper .specs2 #undergraduates {
+        position: absolute; width: 180px; height: 19px; left: 648px; top: 2956px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: 600; font-size: 14px; line-height: 19px; color: rgba(51, 51, 51, 0.6);
+    }
+    #rapper .specs2 #divtwo {
+        position: absolute; width: 497px; height: 0px; left: 512px; top: 2991px; border: 1px solid rgba(55, 55, 55, 0.3);
+    }
+    #rapper .specs2 #lvltwotitle {
+        position: absolute; width: 140px; height: 30px; left: 512px; top: 3001px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: 600; font-size: 22px; line-height: 30px; color: #333333;
+    }
+    #rapper .specs2 #lvltwomain {
+        position: absolute; width: 500px; height: 90px; left: 512px; top: 3038px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 16px; line-height: 22px; color: #333333;
+    }
+    #rapper .specs2 #lvlthree {
+        position: absolute; width: 63px; height: 25px; left: 512px; top: 3165px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 18px; line-height: 25px; color: #DCBA42;
+    }
+    #rapper .specs2 #graduates {
+        position: absolute; width: 300px; height: 19px; left: 648px; top: 3165px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: 600; font-size: 14px; line-height: 19px; color: rgba(51, 51, 51, 0.6);
+    }
+    #rapper .specs2 #divthree {
+        position: absolute; width: 497px; height: 0px; left: 512px; top: 3200px; border: 1px solid rgba(55, 55, 55, 0.3);
+    }
+    #rapper .specs2 #lvlthreetitle {
+        position: absolute; width: 140px; height: 30px; left: 512px; top: 3210px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: 600; font-size: 22px; line-height: 30px; color: #333333;
+    }
+    #rapper .specs2 #lvlthreemain {
+        position: absolute; width: 480px; height: 44px; left: 512px; top: 3247px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 16px; line-height: 22px; color: #333333;
+    }
+
+}
+
+@media only screen and (min-width: 1400px) {
+    /* Certified Programmers Section */
+    #rapper .specs2 .deco {
+        position: absolute; width: 517px; height: 891px; left: 100%;  transform: translateX(-100%); top: 2509px; background: #EFF6FE; border-radius: 0px 0px 500px 0px;
+    }
+
+}
+
 /* horizontal tablets */
 @media only screen and (max-width: 1392px) {
     #rapper {
@@ -326,7 +483,7 @@ html, body {
         position: absolute; width: 400px; height: 891px; left: 0px; top: 1532px; background: #EFF6FE; border-radius: 0px 0px 500px 0px; transform: matrix(-1, 0, 0, 1, 0, 0);
     } 
     #rapper .specs1 #interviewassist {
-        position: absolute; width: 311px; height: 41px; left: 695px; top: 1620px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 30px; line-height: 41px; color: #484848;
+        position: absolute; height: 41px; left: 695px; top: 1620px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 30px; line-height: 41px; color: #484848;
     }
     #rapper .specs1 #ffirms {
         position: absolute; width: 150px; height: 30px; left: 961px; top: 1661px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: normal; font-size: 22px; line-height: 30px; color: #5576A8;
@@ -462,7 +619,7 @@ html, body {
         display: none; 
     } 
     #rapper .specs1 #interviewassist {
-        position: absolute; width: 311px; height: 41px; left: 50%; transform: translateX(-50%); top: 1620px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 30px; line-height: 41px; color: #484848;
+        position: absolute; height: 41px; left: 50%; transform: translateX(-50%); top: 1620px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 30px; line-height: 41px; color: #484848;
     }
     #rapper .specs1 #ffirms {
         position: absolute; width: 150px; height: 30px; left: 65%; transform: translateX(-50%); top: 1661px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: normal; font-size: 22px; line-height: 30px; color: #5576A8;
@@ -705,7 +862,7 @@ html, body {
         display: none;
     } 
     #rapper .specs1 #interviewassist {
-        position: absolute; height: 41px; width: 259px; left: 50%; transform: translateX(-50%); top: 1620px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 26px; line-height: 41px; color: #484848;
+        position: absolute; height: 41px; left: 50%; transform: translateX(-50%); top: 1620px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 26px; line-height: 41px; color: #484848;
     }
     #rapper .specs1 #ffirms {
         position: absolute; width: 150px; height: 30px; left: 50%; top: 1661px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: normal; font-size: 20px; line-height: 30px; color: #5576A8;
@@ -859,6 +1016,330 @@ html, body {
         position: absolute; left: 35%; transform: translateX(-50%); width: 34px; height: 0px; top: 1030px; border: 1px solid #FFFFFF;
     }
 }
+/* Menu Media Query (Large Phones) */
+@media only screen and (max-width: 330px) {
+    body {
+        overflow-x: hidden;
+    }
+    #rapper .menu .swiper-container .swiperb {
+        display: none;
+    }
+    #rapper {
+        overflow-x: hidden;
+    }
+    #rapper .menu .swiper-container{
+        width: auto;
+        min-width: 200px; 
+        height: 848px;
+    }
+    #rapper .menu .swiper-container #logo {
+        width: 100px;
+        height: 100px;
+        margin: auto; 
+        padding: 25px;
+    }
+    #rapper .menu .swiper-container #menuicon {
+        display: block; 
+        position: absolute;
+        right: 10px;
+        width: 80px;
+        height: 80px; 
+        top: 30px; 
+    }
+    #rapper .menu .swiper-container .words {
+        position: fixed;
+        z-index: 1000;
+        margin-top: 180px; 
+        width: 100%;
+        height: 160px;
+        text-align: left;
+        display: none; 
+    }
+    #rapper .menu .swiper-container .words #uno {
+        background-color: rgba(30, 34, 68, 0.7);
+        position: absolute;
+        width: 100%;
+        line-height: 40px;
+        padding-left: 80px;
+        height: 40px;
+        left: 0px; 
+        top: 0px;
+        color: white; 
+        font-family: 'Open Sans', sans-serif;
+        font-weight:600;
+        z-index: 1000;
+    }
+    #rapper .menu .swiper-container .words #dos {
+        background-color: rgba(30, 34, 68, 0.95);
+        position: absolute;
+        width: 100%;
+        line-height: 40px;
+        padding-left: 80px;
+        margin-left: 0; 
+        height: 40px;
+        left: 0px; 
+        top: 40px;
+        color: white; 
+        font-family: 'Open Sans', sans-serif;
+        font-weight:600;
+        z-index: 1000;
+    }
+    #rapper .menu .swiper-container .words #tres {
+        background-color: rgba(30, 34, 68, 0.7);
+        position: absolute;
+        width: 100%;
+        line-height: 40px;
+        padding-left: 80px;
+        margin-left: 0; 
+        height: 40px;
+        left: 0px; 
+        top: 80px;
+        color: white; 
+        font-family: 'Open Sans', sans-serif;
+        font-weight:600;
+        z-index: 2;
+    }
+    #rapper .menu .swiper-container .words #quatro {
+        background-color: rgba(30, 34, 68, 0.95);
+        position: absolute;
+        width: 100%;
+        line-height: 40px;
+        padding-left: 80px;
+        margin-left: 0; 
+        height: 40px;
+        left: 0px; 
+        top: 120px;
+        color: white; 
+        font-family: 'Open Sans', sans-serif;
+        font-weight:600;
+        z-index: 2;
+    }
+    #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #phonebanner {
+        display: inline-block;
+        top: 0px;
+        width: 300px;
+        height: 390px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #banner {
+        display: none;
+    }
+    #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #mac {
+        position: relative;
+        display: inline-block;
+        z-index: -1; 
+        width: 310px;
+        height: 200px;
+        top: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 0;
+        padding: 0; 
+
+    }
+    #rapper .menu .swiper-container .swiper-wrapper .swiper-slide .main {
+        position: absolute;
+        width: 300px;
+        height: 170px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 270px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 32px;
+        color: white;
+    }
+    #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #regbutton {
+        margin: 0; padding: 0; z-index: 1; position: absolute; width: 309px; height: 56px; left: 50%; transform: translateX(-50%);
+        top: 410px; background: #F16464; border-radius: 28px;
+    }
+    #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #page2but {
+        margin: 0; padding: 0;
+        position: absolute; left: 50%; transform: translateX(-50%); top: 450px; font-size: 17px; font-size: 18px;
+    }
+    /* What we do section */
+    #rapper .what-we-do .rectangle-cover {
+        position: absolute; width: 300px; height: 466px; left: 50%; transform: translateX(-50%); top: 957px; border: 1px solid rgba(0, 0, 0, 0.1); box-sizing: border-box;
+    }
+    #rapper .what-we-do #title-text {
+        position: absolute; width: 208px; height: 46px; left: 50%; transform: translateX(-50%); top: 1030px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 20px; line-height: 46px; text-align: center; color: #4E7FC8;
+    }
+    #rapper .what-we-do .line {
+        position: absolute; width: 124px; height: 0px; left: 50%; transform: translateX(-50%); top: 1080px; border: 3px solid #5576A8;
+    }
+    #rapper .what-we-do #main-text{
+        position: absolute; width: 260px; height: 211px; left: 50%; transform: translateX(-50%); top: 1120px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 15px; line-height: 33px; text-align: center; color: #2C4875;
+    }
+
+    /* Interview Assistance Section */
+    #rapper .specs1 {
+        width: 100%;
+        top: 1620px;
+        overflow: hidden; 
+    }
+    #rapper .specs1 .deco1 {
+        display: none;
+    } 
+    #rapper .specs1 #interviewassist {
+        position: absolute; height: 41px; width: 60%; left: 50%; transform: translateX(-50%); top: 1620px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 19px; line-height: 41px; color: #484848;
+    }
+    #rapper .specs1 #ffirms {
+        position: absolute; height: 30px; width: 23%; left: 70%; top: 1661px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: normal; font-size: 15px; line-height: 30px; color: #5576A8;
+    }
+    #rapper .specs1 #tbar {
+        position: absolute; width: 618px; height: 0px; left: 362px; margin-left: -640px; top: 2050px; border: 2px solid #5576A8; transform: rotate(90deg)
+    }
+    #rapper .specs1 #op {
+        position: absolute; width: 161px; height: 25px; left: 725px; margin-left: -640px; top: 1760px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: 600; font-size: 18px; line-height: 25px; color: #474333;
+    }
+    #rapper .specs1 #firstr {
+        position: absolute; width: 88px; height: 25px; left: 725px; margin-left: -640px; top: 1833px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: 600; font-size: 18px; line-height: 25px; color: #474333;
+    }
+    #rapper .specs1 #secondr {
+        position: absolute; width: 95px; height: 25px; left: 725px; margin-left: -640px; top: 2062px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: 600; font-size: 18px; line-height: 25px; color: #474333;
+    }
+    #rapper .specs1 #finalr {
+        position: absolute; width: 133px; height: 25px; left: 725px; margin-left: -640px; top: 2173px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: 600; font-size: 18px; line-height: 25px; color: #474333;
+    }
+    #rapper .specs1 #fbul {
+        position: absolute; width: 14px; height: 14px; left: 663px; margin-left: -640px; top: 1763px; background: #5576A8; border: 3px solid #FFFFFF; transform: rotate(-45.59deg);
+    }
+    #rapper .specs1 #sbullet {
+        position: absolute; width: 14px; height: 14px; left: 663px; margin-left: -640px; top: 1836px; background: #5576A8; border: 3px solid #FFFFFF; transform: rotate(-45.59deg);
+    }
+    #rapper .specs1 #tbullet {
+        position: absolute; width: 14px; height: 14px; left: 663px; margin-left: -640px; top: 2065px; background: #5576A8; border: 3px solid #FFFFFF; transform: rotate(-45.59deg);
+    }
+    #rapper .specs1 #fbullet {
+        position: absolute; width: 14px; height: 14px; left: 663px; margin-left: -640px; top: 2176px; background: #5576A8; border: 3px solid #FFFFFF; transform: rotate(-45.59deg);
+    }
+    #rapper .specs1 #fmbullet {
+        position: absolute; width: 7px; height: 7px; left: 725px; margin-left: -640px; top: 1872px; background: #5576A8;
+    }
+    #rapper .specs1 #smbullet {
+        position: absolute; width: 7px; height: 7px; left: 725px; margin-left: -640px; top: 1971px; background: #5576A8;
+    }
+    #rapper .specs1 #tmbullet {
+        position: absolute; width: 7px; height: 7px; left: 725px; margin-left: -640px; top: 2102px; background: #5576A8;
+    }
+    #rapper .specs1 #fombullet {
+        position: absolute; width: 7px; height: 7px; left: 725px; margin-left: -640px; top: 2213px; background: #5576A8;
+    }
+    #rapper .specs1 #fifth-mbullet {
+        position: absolute; width: 7px; height: 7px; left: 725px; top: 2279px; margin-left: -640px; background: #5576A8;
+    }
+    #rapper .specs1 #firstrd-one {
+        position: absolute; width: 200px; height: 73px; left: 753px; top: 1864px; margin-left: -640px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 11px; line-height: 11px; overflow-y: hidden; color: #494949;
+    }
+    #rapper .specs1 #firstrd-two {
+        position: absolute; width: 200px; height: 73px; left: 753px; top: 1962px; margin-left: -640px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 11px; line-height: 11px; color: #494949;
+    }
+    #rapper .specs1 #secrd-one {
+        position: absolute; width: 200px; height: 73px; left: 753px; top: 2093px; margin-left: -640px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 11px; line-height: 11px; color: #494949;
+    }
+    #rapper .specs1 #finrd-one {
+        position: absolute; width: 200px; height: 73px; left: 753px; top: 2204px; margin-left: -640px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 11px; line-height: 11px; color: #494949;
+    }
+    #rapper .specs1 #finrd-two {
+        position: absolute; width: 200px; height: 73px; left: 753px; top: 2271px; margin-left: -640px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 11px; line-height: 11px; color: #494949;
+    }
+    /* Certified Programmers Section */
+    #rapper .specs2 .deco {
+        display: none;
+    }
+    #rapper .specs2 #title {
+        position: absolute; height: 40px; width: 65%; left: 50%; transform: translateX(-50%); top: 2643px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 19px; line-height: 41px; color: #535353;
+    }
+    #rapper .specs2 #stitle {
+        position: absolute; width: 170px; height: 23%; left: 50%; transform: translateX(-2%); top: 2684px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: normal; font-size: 15px; line-height: 30px; color: #5576A8;
+    }
+    #rapper .specs2 #lvlone {
+        position: absolute; width: 63px; height: 25px; left: 10%; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 15px; line-height: 23px; color: #DCBA42;
+    }
+    #rapper .specs2 #interns {
+        position: absolute; width: 70px; height: 25px; left: 30%; top: 2795px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: 600; font-size: 11px; line-height: 15px; color: rgba(51, 51, 51, 0.6);
+    }
+    #rapper .specs2 #divone {
+        position: absolute; width: 270px; height: 0px; left: 10%; top: 2824px; border: 1px solid rgba(55, 55, 55, 0.3);
+    }
+    #rapper .specs2 #lvlonetitle {
+        position: absolute; width: 140px; height: 30px; left: 10%; top: 2834px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: 600; font-size: 20px; line-height: 26px; color: #333333;
+    }
+    #rapper .specs2 #lvlonemain {
+        position: absolute; width: 227px; height: 44px; left: 10%; top: 2871px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 12px; line-height: 16px; color: #333333;
+    }
+
+    #rapper .specs2 #lvltwo {
+        position: absolute; width: 63px; height: 25px; left: 10%; top: 2956px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 15px; line-height: 23px; color: #DCBA42;
+    }
+    #rapper .specs2 #undergraduates {
+        position: absolute; width: 180px; height: 19px; left: 30%; top: 2961px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: 600; font-size: 11px; line-height: 15px; color: rgba(51, 51, 51, 0.6);
+    }
+    #rapper .specs2 #divtwo {
+        position: absolute; width: 270px; height: 0px; left: 10%; top: 2991px; border: 1px solid rgba(55, 55, 55, 0.3);
+    }
+    #rapper .specs2 #lvltwotitle {
+        position: absolute; width: 140px; height: 30px; left: 10%; top: 3001px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: 600; font-size: 20px; line-height: 26px; color: #333333;
+    }
+    #rapper .specs2 #lvltwomain {
+        position: absolute; width: 270px; height: 90px; left: 10%; top: 3038px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 12px; line-height: 16px; color: #333333;
+    }
+
+    #rapper .specs2 #lvlthree {
+        position: absolute; width: 63px; height: 25px; left: 10%; top: 3165px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 15px; line-height: 23px; color: #DCBA42;
+    }
+    #rapper .specs2 #graduates {
+        position: absolute; width: 300px; height: 19px; left: 30%; top: 3170px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: 600; font-size: 11px; line-height: 15px; color: rgba(51, 51, 51, 0.6);
+    }
+    #rapper .specs2 #divthree {
+        position: absolute; width: 270px; height: 0px; left: 10%; top: 3200px; border: 1px solid rgba(55, 55, 55, 0.3);
+    }
+    #rapper .specs2 #lvlthreetitle {
+        position: absolute; width: 140px; height: 30px; left: 10%; top: 3210px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: 600; font-size: 15px; line-height: 23px; color: #333333;
+    }
+    #rapper .specs2 #lvlthreemain {
+        position: absolute; width: 300px; height: 44px; left: 10%; top: 3247px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 12px; line-height: 15px; color: #333333;
+    }
+    /* Samples Section */
+    #rapper .sample-questions {
+        background-image: url("img/samplebackground.png");
+        position: absolute; width: 100%; height: 1190px; left: 0px; top: 3536px;
+    }
+    #rapper .sample-questions #title {
+        position: absolute; width: 71%; height: 49px; left: 50%; transform: translateX(-50%); top: 80px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 26px; line-height: 49px; color: #FFFFFF;
+    }
+    #rapper .sample-questions .swiper-containerdos {
+        margin: 0; background-color: white;
+        padding: 0; position: relative;
+        left: 50%; transform: translateX(-50%); top: 210px; width: 100%; height: 740px; overflow-x: hidden; 
+    }
+    #rapper .sample-questions .swiper-containerdos .swiper-wrapper #first {
+        background: url(prob/lvl1.png); background-size: 100% 580px; background-repeat: no-repeat;
+    }
+    #rapper .sample-questions .swiper-containerdos .swiper-wrapper #second {
+        background: url(prob/lvl2.png); background-size: 100% 50%; background-repeat: no-repeat;
+    }
+    #rapper .sample-questions .swiper-containerdos .swiper-wrapper #third {
+        background: url(prob/lvl3.png); background-size: 100% 54%; background-repeat: no-repeat;
+    }
+    #rapper .sample-questions #lvl1but {
+        position: absolute; height: 19px; left: 35%; transform: translateX(-50%); top: 1010px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 11px; line-height: 19px;
+    }
+    #rapper .sample-questions #lvl2but {
+        position: absolute; left: 50%; top: 1010px; transform: translateX(-50%); font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 11px; line-height: 20px;
+    }
+    #rapper .sample-questions #lvl3but {
+        position: absolute; height: 19px; left: 65%; transform: translateX(-50%); top: 1010px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 11px; line-height: 19px;
+    }
+    #rapper .sample-questions #uiline {
+        position: absolute; left: 35%; transform: translateX(-50%); width: 34px; height: 0px; top: 1030px; border: 1px solid #FFFFFF;
+    }
+}
+
 
 
 

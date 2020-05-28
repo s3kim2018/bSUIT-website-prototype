@@ -141,7 +141,7 @@ html, body {
 .rapper .about .uno img {
     padding-left: 20px;
     width: 20%;
-    height: 28%; 
+    height: 340px; 
 }
 .rapper .about .uno h2 {
     font-family: Arial, Helvetica, sans-serif;
@@ -177,7 +177,7 @@ html, body {
 }
 .rapper .about .dos img {
     width: 20%;
-    height: 28%; 
+    height: 340px; 
 }
 .rapper .head .but:hover {
     cursor: pointer;
@@ -185,7 +185,7 @@ html, body {
 }
 
 /* For UHD stuff */
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: 1700px) {
     .rapper .about .uno h2 {
         font-family: Arial, Helvetica, sans-serif;
         padding-top: 6%;
@@ -538,6 +538,30 @@ html, body {
     .rapper .head .but:hover {
         cursor: pointer;
         opacity: 1; 
+    }
+}
+@media only screen and (max-width: 330px) {
+    .rapper .about .dos img {
+        position: absolute;
+        width: 280px;
+        height: 300px; 
+        top: 1950px;
+        margin-left: 0;
+        padding: 10px 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .rapper .head .menu #schedule{
+        margin-left: 8px;
+    }
+    .rapper .head .menu #about{
+        margin-left: 8px;
+    }
+    .rapper .head .menu #register{
+        margin-left: 8px;
+    }
+    .rapper .head .menu #practice{
+        margin-left: 8px;
     }
 
 }
