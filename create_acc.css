@@ -1,0 +1,216 @@
+* {
+    margin: 0; 
+    padding: 0; 
+}
+.loginbox{
+    width: 429px; height: 630px;
+    left: 50%;
+    top: 50%; 
+    transform: translate(-50%, -50%);
+    position: absolute; 
+}
+
+.loginbox img{
+    position: relative; 
+    width: 170px;
+    height: 170px;
+    padding-top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+input {
+    outline: none; 
+}
+
+input[type=text] {
+    position: relative; 
+    margin-top: 15px;
+    width: 282px; 
+    height: 54px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #FFFFFF;
+    border: 1px solid #D88D64;
+    box-sizing: border-box;
+    border-radius: 31px;
+}
+input[type=text], textarea{
+    padding: 12px; 
+}
+input[type=password] {
+    position: relative; 
+    margin-top: 15px;
+    width: 282px; 
+    height: 54px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #FFFFFF;
+    border: 1px solid #D88D64;
+    box-sizing: border-box;
+    border-radius: 31px;
+}
+input[type=password], textarea{
+    padding: 12px; 
+}
+input[type=email] {
+    position: relative; 
+    margin-top: 15px;
+    width: 282px; 
+    height: 54px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #FFFFFF;
+    border: 1px solid #D88D64;
+    box-sizing: border-box;
+    border-radius: 31px;
+}
+input[type=email], textarea{
+    padding: 12px; 
+}
+input[type = submit] {
+    margin-top: 30px;
+    position: relative;
+    width: 282px;
+    height: 54px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #5576A8;
+    border: 1px solid #5576A8;
+    box-sizing: border-box;
+    border-radius: 31px;
+    color: white; 
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 23px;
+}
+input[type = submit]:hover {
+    cursor: pointer;
+}
+.loginbox .field {
+    padding-top: 10px;
+    position: relative; 
+    width: 180px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #ABABAB;
+}
+
+.loginbox .field a{
+    color: #5576A8;
+    text-decoration: none; 
+}
+
+@media only screen and (max-width: 600px) {
+    .loginbox{
+        width: 329px; height: 550px;
+        left: 50%;
+        top: 50%; 
+        transform: translate(-50%, -50%);
+        position: absolute; 
+    }
+    
+    .loginbox img{
+        position: relative; 
+        width: 120px;
+        height: 120px;
+        padding-top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    input[type=text] {
+        position: relative; 
+        margin-top: 15px;
+        width: 232px; 
+        height: 54px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: #FFFFFF;
+        border: 1px solid #D88D64;
+        box-sizing: border-box;
+        border-radius: 31px;
+    }
+    input[type=text], textarea{
+        padding: 12px; 
+    }
+    input[type=password] {
+        position: relative; 
+        margin-top: 15px;
+        width: 232px; 
+        height: 54px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: #FFFFFF;
+        border: 1px solid #D88D64;
+        box-sizing: border-box;
+        border-radius: 31px;
+    }
+    input[type=password], textarea{
+        padding: 12px; 
+    }
+    input[type=email] {
+        position: relative; 
+        margin-top: 15px;
+        width: 232px; 
+        height: 54px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: #FFFFFF;
+        border: 1px solid #D88D64;
+        box-sizing: border-box;
+        border-radius: 31px;
+    }
+    input[type=email], textarea{
+        padding: 12px; 
+    }
+    input[type = submit] {
+        margin-top: 30px;
+        position: relative;
+        width: 232px;
+        height: 54px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: #5576A8;
+        border: 1px solid #5576A8;
+        box-sizing: border-box;
+        border-radius: 31px;
+        color: white; 
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 23px;
+    }
+    .loginbox .field {
+        padding-top: 10px;
+        position: relative; 
+        width: 180px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        color: #ABABAB;
+    }
+    
+
+}
+
+@media only screen and (max-width: 320px) {
+    .loginbox{
+        width: 300px; height: 550px;
+        left: 50%;
+        top: 50%; 
+        transform: translate(-50%, -50%);
+        position: absolute; 
+    }
+
+}
